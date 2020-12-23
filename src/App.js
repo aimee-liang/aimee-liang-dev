@@ -1,11 +1,11 @@
 import React from "react"
-import aboutMe from "./Components/aboutMe"
+import AboutMe from "./Components/AboutMe"
 
 const App = props => {
   return(
     <>
       <div className = "about-me container">
-        <aboutMe/>
+        <AboutMe/>
       </div>
     </>
   )
