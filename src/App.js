@@ -5,6 +5,7 @@ const App = props => {
   return(
     <>
         <AboutMe/>
+        <Projects/>
     </>
   )
 }
