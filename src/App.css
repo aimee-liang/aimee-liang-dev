@@ -61,7 +61,7 @@
 
 .me-paragraph{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .header-container {
@@ -81,3 +81,11 @@
   align-items: center;
 }
 
+.projects-container {
+  display: flex;
+}
+
+.projects-header{
+  text-align: center;
+  font-size: 20px;
+}

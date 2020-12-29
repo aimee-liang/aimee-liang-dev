@@ -2,11 +2,10 @@ import React from "react"
 
 const Projects = props => {
     return (
-        <div className="projects-container">
+        <>
+            <h3 className="projects-header">Projects</h3>
 
-            <h3>
-                Projects
-            </h3>
+        <div className="projects-container">
 
             <div className="tetris">
                 <div className="tetris-image">
@@ -30,6 +29,8 @@ const Projects = props => {
             </div>
 
         </div>
+
+        </>
     )
 }
 
