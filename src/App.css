@@ -41,4 +41,15 @@
 .about-me-animation {
   font-family: 'Cutive Mono', monospace;
   font-size: 50px;
+  transform: translateY(50%);
+}
+
+.animation-type {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+.about-me-p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
 }
