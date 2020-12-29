@@ -76,13 +76,37 @@
 
 .tetris {
   border: solid 1px gray;
-  height: 30vh;
+  height: 40vh;
   width: 18vw;
   align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.ubike {
+  border: solid 1px gray;
+  height: 40vh;
+  width: 18vw;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.munch{
+  border: solid 1px gray;
+  height: 40vh;
+  width: 18vw;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .projects-container {
   display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: auto;
+  height: auto;
 }
 
 .projects-header{
