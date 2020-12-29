@@ -68,3 +68,7 @@
   height: 25vh;
   width: 100%;
 }
+
+.navigation-bar{
+  position: fixed; /* return to later*/
+}
