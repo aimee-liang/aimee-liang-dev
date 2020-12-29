@@ -2,12 +2,14 @@ import React from "react"
 
 const Projects = props => {
     return (
-        <div className = "projects-container">
-            <h5>
+        <div className="projects-container">
+            <h3>
                 Projects
-            </h5>
-            <div>
-                
+            </h3>
+            <div className="tetris">
+                <div className="tetris-image">
+                    <img alt="tetris" src=""/>
+                </div>
             </div>
 
         </div>

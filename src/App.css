@@ -70,5 +70,14 @@
 }
 
 .navigation-bar{
-  position: fixed; /* return to later*/
+  display: flex;
+  align-items: left;
 }
+
+.tetris {
+  border: solid 1px gray;
+  height: 30vh;
+  width: 18vw;
+  align-items: center;
+}
+
