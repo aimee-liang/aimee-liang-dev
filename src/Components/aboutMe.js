@@ -15,9 +15,7 @@ const AboutMe = props => {
                 <br></br>
                 That’s what shaped my decision to go into Tech. 
                 <br></br>
-                I knew I wanted a career where I could pursue my interests, and build meaningful solutions
-                <br></br> 
-                to help make people’s lives easier through innovative technologies. 
+                I knew I wanted a career where I could pursue my interests, and build meaningful solutions to help make people’s lives easier through innovative technologies. 
                 </p>
             </div>
         </>

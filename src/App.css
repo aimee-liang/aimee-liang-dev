@@ -61,5 +61,10 @@
 
 .me-paragraph{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.header-container {
+  height: 25vh;
+  width: 100%;
 }

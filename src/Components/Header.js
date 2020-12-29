@@ -1,9 +1,10 @@
 import React from "react"
+import "../App.css"
 
 const Header = props =>{
     return(
         <div className="header-container">
-            <img alt="" />
+            <img alt="" src="/public/cropped_background.jpg" />
         </div>
     )
 }
