@@ -8,7 +8,6 @@ const Projects = props => {
             <div className="projects-container">
 
                 <div className="tetris">
-
                     <div className="tetris-image">
                         <img alt="tetris" src=""/>
                     </div>
@@ -16,35 +15,46 @@ const Projects = props => {
                     <div className="tetris-links">
                         <a href="https://github.com/aimee-liang/tetris"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
                     </div>
-
                 </div>
 
                 <div className="ubike">
                     <div className="ubike-image">
                         <img alt="ubike" src="" />
                     </div>
-                    <a href="https://github.com/aimee-liang/ubike-frontend"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
+
+                    <div className="ubike-links">
+                        <a href="https://github.com/aimee-liang/ubike-frontend"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
+                    </div>
                 </div>
 
                 <div className="munch">
                     <div className="munch-image">
                         <img alt="munch" src="" />
                     </div>
-                    <a href="https://github.com/aimee-liang/munch-frontend"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
+
+                    <div className="munch-links">
+                        <a href="https://github.com/aimee-liang/munch-frontend"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
+                    </div>
                 </div>
 
                 <div className="flatiron-trivia">
                     <div className="flatiron-trivia-image">
                         <img alt="flatiron-trivia" src="" />
                     </div>
-                    <a href="https://github.com/aimee-liang/flatiron-trivia-frontend"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
+
+                    <div className="flatiron-trivia-links">
+                        <a href="https://github.com/aimee-liang/flatiron-trivia-frontend"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
+                    </div>
                 </div>
 
                 <div className="kl-finance">
                     <div className="kl-finance-image">
                         <img alt="kl-finance" src="" />
                     </div>
-                    <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
+
+                    <div className="kl-finance-links">
+                        <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
+                    </div>
                 </div>
 
 
