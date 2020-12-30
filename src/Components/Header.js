@@ -4,7 +4,7 @@ import "../App.css"
 const Header = props =>{
     return(
         <div className="header-container">
-            <img alt="" src="/public/cropped_background.jpg"/>
+            <img alt="" src="/cropped_background.jpg"/>
         </div>
     )
 }
