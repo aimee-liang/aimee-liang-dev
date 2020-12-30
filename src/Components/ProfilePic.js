@@ -1,9 +1,10 @@
 import React from "react"
+import "../App.css"
 
 const ProfilePic = props => {
     return(
         <div className="profile-pic-container">
-            <img alt="propic" src="/aimee_liang_profile.png" />
+            <img alt="" src="/aimee_liang_profile.png" />
         </div>
     )
 }
