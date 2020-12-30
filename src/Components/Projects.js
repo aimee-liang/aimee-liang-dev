@@ -8,10 +8,15 @@ const Projects = props => {
             <div className="projects-container">
 
                 <div className="tetris">
+
                     <div className="tetris-image">
                         <img alt="tetris" src=""/>
                     </div>
-                    <a href="https://github.com/aimee-liang/tetris"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
+
+                    <div className="tetris-links">
+                        <a href="https://github.com/aimee-liang/tetris"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
+                    </div>
+
                 </div>
 
                 <div className="ubike">
