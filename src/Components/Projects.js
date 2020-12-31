@@ -68,7 +68,9 @@ const Projects = props => {
                     <ul className="project-tech-list">
                         <li>React</li>
                         <li>Rails</li>
-                        <li>Auth()</li>
+                        <li>PostgresQL</li>
+                        <li>JWT</li>
+                        <li>BCrypt</li>
                         <li>API</li>
                         <li>CSS</li>
                         <li>Material-UI</li>
@@ -83,7 +85,7 @@ const Projects = props => {
 
                     <div className="description">
                         <h2>munch</h2>
-                        <p>App to check out local restaurants based on cuisine and neighborhood, create and delete reservations</p>
+                        <p>App to search restaurants based on cuisine and neighborhood, create and delete reservations</p>
                     </div>
 
                     <div className="munch-links">
@@ -96,7 +98,9 @@ const Projects = props => {
                         <li>React Bootstrap</li>
                         <li>CSS</li>
                         <li>API</li>
-                        <li>Auth()</li>
+                        <li>PostgresQL</li>
+                        <li>JWT</li>
+                        <li>BCrypt</li>
                     </ul>
                 </div>
 
@@ -120,6 +124,7 @@ const Projects = props => {
                         <li>Bootstrap</li>
                         <li>Rails</li>
                         <li>CSS</li>
+                        <li>PostgresQL</li>
                     </ul>
                 </div>
 
@@ -142,6 +147,7 @@ const Projects = props => {
                         <li>Ruby</li>
                         <li>CSS</li>
                         <li>Rails</li>
+                        <li>SQLite3</li>
                         <li>Bootstrap</li>
                     </ul>
                 </div>
