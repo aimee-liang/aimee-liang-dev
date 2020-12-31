@@ -72,8 +72,14 @@
 
 .navigation-bar{
   display: flex;
-  align-items: left;
-  background-color: #85D6FF;
+  height: 20vh;
+  width: auto;
+  justify-content: center;
+}
+
+.navigation-bar a {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .tetris {

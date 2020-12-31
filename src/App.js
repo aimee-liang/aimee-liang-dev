@@ -7,10 +7,10 @@ import Projects from "./Components/Projects"
 const App = props => {
   return(
     <>
-        <Navbar/>
         <Header />
         <AboutMe/>
         <Projects/>
+        <Navbar/>
     </>
   )
 }

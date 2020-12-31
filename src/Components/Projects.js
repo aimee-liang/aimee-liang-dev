@@ -10,6 +10,25 @@ const Projects = props => {
 
             <div className="projects-container">
 
+                <div className="portfolio">
+                    <div className="portfolio-image">
+                        <img alt="portfolio" src=""/>
+                    </div>
+
+                    <div className="description">
+                        <p>Personal portfolio built using React</p>
+                    </div>
+
+                    <div className="portfolio-links">
+                        <a href="https://google.com"><img alt=""src="https://img.icons8.com/carbon-copy/40/000000/github.png"/></a>
+                    </div>
+
+                    <ul className="project-tech-list">
+                        <li>CSS</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+
                 <div className="tetris" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}> {/* onHover, display image source */}
                     <div className="tetris-image">
                         <img alt="tetris" src="/Tetris.png"/>
@@ -49,6 +68,7 @@ const Projects = props => {
                     <ul className="project-tech-list">
                         <li>React</li>
                         <li>Rails</li>
+                        <li>Auth()</li>
                         <li>API</li>
                         <li>CSS</li>
                         <li>Material-UI</li>
@@ -63,7 +83,7 @@ const Projects = props => {
 
                     <div className="description">
                         <h2>munch</h2>
-                        <p>App used to check out local restaurants based on cuisine and neighborhood, as well as create and delete reservations</p>
+                        <p>App to check out local restaurants based on cuisine and neighborhood, create and delete reservations</p>
                     </div>
 
                     <div className="munch-links">
@@ -74,7 +94,9 @@ const Projects = props => {
                         <li>React</li>
                         <li>Rails</li>
                         <li>React Bootstrap</li>
+                        <li>CSS</li>
                         <li>API</li>
+                        <li>Auth()</li>
                     </ul>
                 </div>
 
