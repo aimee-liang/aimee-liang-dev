@@ -159,3 +159,8 @@
 .description {
   font-family: 'Amiri', serif;
 }
+
+li {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 15px;
+}
