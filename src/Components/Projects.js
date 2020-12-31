@@ -10,7 +10,7 @@ const Projects = props => {
 
             <div className="projects-container">
 
-                <div className="tetris">
+                <div className="tetris" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}> {/* onHover, display image source */}
                     <div className="tetris-image">
                         <img alt="tetris" src="/Tetris.png"/>
                     </div>
