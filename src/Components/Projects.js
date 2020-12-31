@@ -13,7 +13,8 @@ const Projects = props => {
                     </div>
 
                     <div className="description">
-                        <p>Classic Tetris app built using vanilla JS on the Frontend</p>
+                        <h2>Tetris</h2>
+                        <p>Tetris built using vanilla JavaScript</p>
                     </div>
 
                     <div className="tetris-links">
@@ -34,7 +35,8 @@ const Projects = props => {
                     </div>
 
                     <div className="description">
-
+                        <h2>ubike</h2>
+                        <p>App to find and check into bike parking shelters in New York City</p>
                     </div>
 
                     <div className="ubike-links">
@@ -42,7 +44,11 @@ const Projects = props => {
                     </div>
 
                     <ul className="project-tech-list">
-                        
+                        <li>React</li>
+                        <li>Rails</li>
+                        <li>API</li>
+                        <li>CSS</li>
+                        <li>Material-UI</li>
                     </ul>
                 </div>
 
@@ -53,7 +59,8 @@ const Projects = props => {
                     </div>
 
                     <div className="description">
-                        <p></p>
+                        <h2>munch</h2>
+                        <p>App used to check out local restaurants based on cuisine and neighborhood, as well as create and delete reservations</p>
                     </div>
 
                     <div className="munch-links">
@@ -75,6 +82,7 @@ const Projects = props => {
                     </div>
 
                     <div className="description">
+                        <h2>Flatiron Trivia</h2>
                         <p>Trivia game built using vanilla JavaScript</p>
                     </div>
 
@@ -97,6 +105,7 @@ const Projects = props => {
                     </div>
 
                     <div className="description">
+                        <h2>KL-Finance</h2>
                         <p>Static finance website built using Rails backend</p>
                     </div>
 

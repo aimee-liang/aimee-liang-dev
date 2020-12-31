@@ -155,3 +155,7 @@
 .profile-pic-container img {
   border-radius: 50%;
 }
+
+.description {
+  font-family: 'Amiri', serif;
+}
