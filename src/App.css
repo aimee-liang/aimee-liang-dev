@@ -66,12 +66,14 @@
 
 .header-container {
   height: 25vh;
-  width: 100%;
+  width: 100vw;
+
 }
 
 .navigation-bar{
   display: flex;
   align-items: left;
+  background-color: #85D6FF;
 }
 
 .tetris {
@@ -83,6 +85,14 @@
   margin-right: 1%;
 }
 
+.tetris-image {
+  margin: auto;
+}
+
+.tetris-image img {
+  height: 15vh;
+  width: 10vw;
+}
 /* .tetris-links {
   background-color: #85D6FF;
 } */

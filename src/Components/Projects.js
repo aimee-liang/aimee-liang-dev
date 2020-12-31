@@ -1,6 +1,9 @@
-import React from "react"
+import React, {useState} from "react"
 
 const Projects = props => {
+
+    const [inHover, setHover] = useState(false)
+
     return (
         <>
             <h3 className="projects-header">Projects</h3>
@@ -9,7 +12,7 @@ const Projects = props => {
 
                 <div className="tetris">
                     <div className="tetris-image">
-                        <img alt="tetris" src=""/>
+                        <img alt="tetris" src="/Tetris.png"/>
                     </div>
 
                     <div className="description">
