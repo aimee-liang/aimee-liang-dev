@@ -51,9 +51,9 @@ const Projects = props => {
                 </div>
 
 
-                <div className="ubike">
+                <div className="ubike" onMouseEnter={() => setHover(true)} onMouseLeave={()=> setHover(false)}>
                     <div className="ubike-image">
-                        <img alt="ubike" src="" />
+                        {inHover && <img alt="ubike" src="" />}
                     </div>
 
                     <div className="description">
@@ -78,9 +78,9 @@ const Projects = props => {
                 </div>
 
 
-                <div className="munch">
+                <div className="munch" onMouseEnter={() => setHover(true)} onMouseLeave={()=> setHover(false)}>
                     <div className="munch-image">
-                        <img alt="munch" src="" />
+                        {inHover && <img alt="munch" src="" />}
                     </div>
 
                     <div className="description">

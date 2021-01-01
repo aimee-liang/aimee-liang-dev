@@ -83,6 +83,7 @@
   display: inline-block;
 }
 
+
 .tetris {
   border: solid 5px #85D6FF;
   height: auto;
@@ -164,6 +165,10 @@
   padding-right: 5%;
   width: auto;
   height: auto;
+}
+
+.projects-container h2 {
+  text-align: center;
 }
 
 .projects-header{
