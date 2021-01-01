@@ -2,7 +2,12 @@ import React, {useState} from "react"
 
 const Projects = props => {
 
-    const [inHover, setHover] = useState(false)
+    const [inHoverTetris, setHoverTetris] = useState(false)
+    const [inHoverUbike, setHoverUbike] = useState(false)
+    const [inHoverMunch, setHoverMunch] = useState(false)
+    const [inHoverFlatironTrivia, setHoverFlatironTrivia] = useState(false)
+    const [inHoverKLFinance, setHoverKLFinance] = useState(false)
+
 
     return (
         <>
@@ -29,9 +34,9 @@ const Projects = props => {
                     </ul>
                 </div>
 
-                <div className="tetris" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+                <div className="tetris" onMouseEnter={() => setHoverTetris(true)} onMouseLeave={() => setHoverTetris(false)}>
                     <div className="tetris-image">
-                        {inHover && <img alt="tetris" src="/Tetris.png"/>}
+                        {inHoverTetris && <img alt="tetris" src="/Tetris.png"/>}
                     </div>
 
                     <div className="description">
@@ -51,9 +56,9 @@ const Projects = props => {
                 </div>
 
 
-                <div className="ubike" onMouseEnter={() => setHover(true)} onMouseLeave={()=> setHover(false)}>
+                <div className="ubike" onMouseEnter={() => setHoverUbike(true)} onMouseLeave={()=> setHoverUbike(false)}>
                     <div className="ubike-image">
-                        {inHover && <img alt="ubike" src="" />}
+                        {inHoverUbike && <img alt="ubike" src="" />}
                     </div>
 
                     <div className="description">
@@ -78,9 +83,9 @@ const Projects = props => {
                 </div>
 
 
-                <div className="munch" onMouseEnter={() => setHover(true)} onMouseLeave={()=> setHover(false)}>
+                <div className="munch" onMouseEnter={() => setHoverMunch(true)} onMouseLeave={()=> setHoverMunch(false)}>
                     <div className="munch-image">
-                        {inHover && <img alt="munch" src="" />}
+                        {inHoverMunch && <img alt="munch" src="" />}
                     </div>
 
                     <div className="description">
@@ -105,9 +110,9 @@ const Projects = props => {
                 </div>
 
 
-                <div className="flatiron-trivia" onMouseEnter={() => setHover(true)} onMouseLeave={()=> setHover(false)}>
+                <div className="flatiron-trivia" onMouseEnter={() => setHoverFlatironTrivia(true)} onMouseLeave={()=> setHoverFlatironTrivia(false)}>
                     <div className="flatiron-trivia-image">
-                        {inHover && <img alt="flatiron-trivia" src="" />}
+                        {inHoverFlatironTrivia && <img alt="flatiron-trivia" src="" />}
                     </div>
 
                     <div className="description">
@@ -129,9 +134,9 @@ const Projects = props => {
                 </div>
 
 
-                <div className="kl-finance" onMouseEnter={() => setHover(true)} onMouseLeave={()=> setHover(false)}>
+                <div className="kl-finance" onMouseEnter={() => setHoverKLFinance(true)} onMouseLeave={()=> setHoverKLFinance(false)}>
                     <div className="kl-finance-image">
-                        {inHover && <img alt="kl-finance" src="" />}
+                        {inHoverKLFinance && <img alt="kl-finance" src="" />}
                     </div>
 
                     <div className="description">
