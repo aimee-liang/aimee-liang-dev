@@ -133,6 +133,16 @@
   background-color: #85D6FF;
 } */
 
+.portfolio {
+  border: solid 5px #85D6FF;
+  height: auto;
+  width: 20vw;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+
 .projects-container {
   display: flex;
   padding-left: 5%;
