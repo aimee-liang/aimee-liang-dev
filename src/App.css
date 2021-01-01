@@ -39,8 +39,8 @@
 }
 
 .header-container {
-  height: 25vh;
-  width: 100vw;
+  height: 20vh;
+  width: 100%;
 }
 
 .navigation-bar{
@@ -144,11 +144,10 @@
 
 
 .projects-container {
-  display: flex;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: auto;
-  height: auto;
+  grid-template-columns: 1fr 50px 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .projects-container h2 {
