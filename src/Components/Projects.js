@@ -105,9 +105,9 @@ const Projects = props => {
                 </div>
 
 
-                <div className="flatiron-trivia">
+                <div className="flatiron-trivia" onMouseEnter={() => setHover(true)} onMouseLeave={()=> setHover(false)}>
                     <div className="flatiron-trivia-image">
-                        <img alt="flatiron-trivia" src="" />
+                        {inHover && <img alt="flatiron-trivia" src="" />}
                     </div>
 
                     <div className="description">
@@ -129,9 +129,9 @@ const Projects = props => {
                 </div>
 
 
-                <div className="kl-finance">
+                <div className="kl-finance" onMouseEnter={() => setHover(true)} onMouseLeave={()=> setHover(false)}>
                     <div className="kl-finance-image">
-                        <img alt="kl-finance" src="" />
+                        {inHover && <img alt="kl-finance" src="" />}
                     </div>
 
                     <div className="description">
