@@ -29,9 +29,9 @@ const Projects = props => {
                     </ul>
                 </div>
 
-                <div className="tetris" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}> {/* onHover, display image source */}
+                <div className="tetris" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
                     <div className="tetris-image">
-                        <img alt="tetris" src="/Tetris.png"/>
+                        {inHover && <img alt="tetris" src="/Tetris.png"/>}
                     </div>
 
                     <div className="description">
