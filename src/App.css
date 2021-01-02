@@ -76,12 +76,8 @@
   height: 25vh;
   width: 15vw;
   padding-left: 20px;
-  padding-right: 20px;;
+  padding-right: 20px;
 }
-/* .tetris-links {
-  background-color: #85D6FF;
-} */
-
 
 .ubike {
   border: solid 5px #85D6FF;
@@ -92,9 +88,12 @@
   margin-right: 1%;
 }
 
-/* .ubike-links {
-  background-color: #85D6FF;
-} */
+.ubike-image img{
+  height: 25vh;
+  width: 15vw;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .munch{
   border: solid 5px #85D6FF;

@@ -57,7 +57,7 @@ const Projects = props => {
 
                 <div className="ubike" onMouseEnter={() => setHoverUbike(true)} onMouseLeave={()=> setHoverUbike(false)}>
                     <div className="ubike-image">
-                        {inHoverUbike && <img alt="ubike" src="" />}
+                        {inHoverUbike && <img alt="ubike" src="/ubike.png" />}
                     </div>
 
                     <div className="description">
