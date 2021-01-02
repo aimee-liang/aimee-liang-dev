@@ -111,7 +111,7 @@ const Projects = props => {
 
                 <div className="flatiron-trivia" onMouseEnter={() => setHoverFlatironTrivia(true)} onMouseLeave={()=> setHoverFlatironTrivia(false)}>
                     <div className="flatiron-trivia-image">
-                        {inHoverFlatironTrivia && <img alt="flatiron-trivia" src="" />}
+                        {inHoverFlatironTrivia && <img alt="flatiron-trivia" src="Flatiron Trivia.png" />}
                     </div>
 
                     <div className="description">

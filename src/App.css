@@ -57,15 +57,12 @@
   display: inline-block;
 }
 
-
 .tetris {
   border: solid 5px #85D6FF;
   height: auto;
   width: 20vw;
-  /* align-items: center; */
   margin-left: 1%;
   margin-right: 1%;
-  justify-content: center;
 }
 
 .tetris-image {
@@ -117,9 +114,12 @@
   margin-right: 1%;
 }
 
-/* .flatiron-trivia-links {
-  background-color: #85D6FF;
-} */
+.flatiron-trivia-image img {
+  height: 25vh;
+  width: 15vw;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .kl-finance {
   border: solid 5px #85D6FF;
@@ -147,7 +147,6 @@
 .projects-container {
   padding-left: 2%;
   padding-right: 2%;
-  display: inline-flex;
 }
 
 .projects-container h2 {
