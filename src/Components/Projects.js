@@ -2,7 +2,6 @@ import React, {useState} from "react"
 
 const Projects = props => {
 
-    const [inHoverPortfolio, setHoverPortfolio] = useState(false)
     const [inHoverTetris, setHoverTetris] = useState(false)
     const [inHoverUbike, setHoverUbike] = useState(false)
     const [inHoverMunch, setHoverMunch] = useState(false)
@@ -16,18 +15,15 @@ const Projects = props => {
 
             <div className="projects-container">
 
-                <div className="portfolio" onMouseEnter={() => setHoverPortfolio(true)} onMouseLeave={() => setHoverPortfolio(false)}>
-                    <div className="portfolio-image">
-                        {inHoverPortfolio && <img alt="portfolio" src=""/>}
-                    </div>
+                <div className="portfolio">
 
                     <div className="description">
                         <h2>Portfolio</h2>
-                        <p>Personal portfolio</p>
+                        <p>Portfolio website</p>
                     </div>
 
                     <div className="portfolio-links">
-                        <a href="https://google.com"><img alt=""src="https://img.icons8.com/carbon-copy/60/000000/github.png"/></a>
+                        <a href="https://github.com/aimee-liang/aimee-liang-dev"><img alt=""src="https://img.icons8.com/carbon-copy/60/000000/github.png"/></a>
                     </div>
 
                     <ul className="project-tech-list">

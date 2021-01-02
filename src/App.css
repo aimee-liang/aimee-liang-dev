@@ -73,8 +73,10 @@
 }
 
 .tetris-image img {
-  height: 15vh;
-  width: 10vw;
+  height: 25vh;
+  width: 15vw;
+  padding-left: 20px;
+  padding-right: 20px;;
 }
 /* .tetris-links {
   background-color: #85D6FF;
@@ -144,10 +146,9 @@
 
 
 .projects-container {
-  grid-template-columns: 1fr 50px 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   padding-left: 2%;
   padding-right: 2%;
+  display: inline-flex;
 }
 
 .projects-container h2 {
