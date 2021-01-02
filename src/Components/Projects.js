@@ -62,7 +62,7 @@ const Projects = props => {
 
                     <div className="description">
                         <h2>ubike</h2>
-                        <p>App to find and check into bike parking shelters in New York City</p>
+                        <p>Fullstack app to find and check into bike parking shelters in New York City</p>
                     </div>
 
                     <div className="ubike-links">
@@ -89,7 +89,7 @@ const Projects = props => {
 
                     <div className="description">
                         <h2>munch</h2>
-                        <p>App to search restaurants based on cuisine and neighborhood, create and delete reservations</p>
+                        <p>Fullstack App to search restaurants based on cuisine and neighborhood, create and delete reservations</p>
                     </div>
 
                     <div className="munch-links">
@@ -116,7 +116,7 @@ const Projects = props => {
 
                     <div className="description">
                         <h2>Flatiron Trivia</h2>
-                        <p>Trivia game built using vanilla JavaScript</p>
+                        <p>Fullstack Trivia app built using JavaScript</p>
                     </div>
 
                     <div className="flatiron-trivia-links">
