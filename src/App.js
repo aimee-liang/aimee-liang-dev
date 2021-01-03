@@ -19,11 +19,13 @@ const App = () => {
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme }>
       <>
       <GlobalStyles/>
-      <div className="app"></div>
+      <div className="app">
+        <button onClick={themeToggler}>Change Modes</button>
           {/* <Header /> */}
           <AboutMe/>
           <Projects/>
           <Navbar/>
+      </div>
       </>
     </ThemeProvider>
   )
