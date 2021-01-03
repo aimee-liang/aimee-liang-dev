@@ -4,7 +4,7 @@ import "../App.css"
 
 const AboutMe = props => {
     return(
-        <>
+        <div className="about">
             <ProfilePic/>
 
             <div className="about-me-container">
@@ -14,7 +14,8 @@ const AboutMe = props => {
                 I'm looking to build meaningful and creative products to help make people’s lives easier. 
                 </p>
             </div>
-        </>
+
+        </div>
     )
 }
 export default AboutMe
