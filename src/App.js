@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react"
+import React, {useState} from "react"
 import Navbar from "./Components/Navbar"
 // import Header from "./Components/Header"
 import AboutMe from "./Components/AboutMe"
@@ -9,19 +9,23 @@ import {lightTheme, darkTheme} from "./Components/Themes"
 
 const App = () => {
 
-  const [theme, setTheme] = lightTheme("light")
+  const [theme, setTheme] = useState("light")
 
   const themeToggler = () => {
     theme === "light" ? setTheme("dark") : setTheme("light")
   }
 
   return(
-    <>
-        {/* <Header /> */}
-        <AboutMe/>
-        <Projects/>
-        <Navbar/>
-    </>
+    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme }>
+      <>
+      <GlobalStyles/>
+      <div className="app"></div>
+          {/* <Header /> */}
+          <AboutMe/>
+          <Projects/>
+          <Navbar/>
+      </>
+    </ThemeProvider>
   )
 }
 
