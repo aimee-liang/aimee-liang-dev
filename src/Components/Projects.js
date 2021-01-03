@@ -1,4 +1,6 @@
 import React, {useState} from "react"
+// import 'semantic-ui-css/semantic.min.css'
+import {Button} from "semantic-ui-react"
 
 const Projects = props => {
 
@@ -23,8 +25,10 @@ const Projects = props => {
                     </div>
 
                     <div className="portfolio-links">
-                        <button><a href="https://github.com/aimee-liang/aimee-liang-dev">View Repo</a></button>
-                        
+                        <Button basic color="blue">
+                            <Button content="View Repo" href="https://github.com/aimee-liang/aimee-liang-dev"></Button>
+                        </Button>
+
                     </div>
 
                     <ul className="project-tech-list">
