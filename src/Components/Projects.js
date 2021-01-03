@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 // import 'semantic-ui-css/semantic.min.css'
-import {Button} from "semantic-ui-react"
+// import {Button} from "semantic-ui-react"
 
 const Projects = props => {
 
