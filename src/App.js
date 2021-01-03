@@ -9,7 +9,8 @@ import {lightTheme, darkTheme} from "./Components/Themes"
 
 const App = props => {
 
-  const [theme, setTheme]
+  const [theme, setTheme] = lightTheme(light)
+  
   return(
     <>
         {/* <Header /> */}
