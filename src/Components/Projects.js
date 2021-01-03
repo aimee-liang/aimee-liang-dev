@@ -25,10 +25,12 @@ const Projects = props => {
                     </div>
 
                     <div className="portfolio-links">
-                        <Button basic color="blue">
+                        {/* <Button basic color="blue">
                             <Button content="View Repo" href="https://github.com/aimee-liang/aimee-liang-dev"></Button>
-                        </Button>
+                        </Button> */}
 
+                        <a href="https://google.com"><img alt=""src="https://img.icons8.com/carbon-copy/80/000000/domain.png"/></a>
+                        <a href="https://github.com/aimee-liang/aimee-liang-dev"><img alt=""src="https://img.icons8.com/carbon-copy/60/000000/github.png"/></a>
                     </div>
 
                     <ul className="project-tech-list">
