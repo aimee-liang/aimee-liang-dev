@@ -134,7 +134,8 @@
 
 .projects-header{
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
+  padding-bottom: 40px;
 }
 
 .profile-pic-container img {
@@ -155,3 +156,8 @@
   background-color: #2EC0F9;
 } */
 
+/* .connected {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 28px;
+} */

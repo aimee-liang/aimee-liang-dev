@@ -13,7 +13,7 @@ const Projects = props => {
 
     return (
         <>
-            <h3 className="projects-header">Projects</h3>
+            <div className="projects-header">Projects</div>
 
             <div className="projects_box">
 

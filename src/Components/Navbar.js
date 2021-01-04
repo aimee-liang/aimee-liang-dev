@@ -3,6 +3,7 @@ import React from "react"
 const Navbar = (props) => {
     return (
         <>
+            {/* <div className="connected">Stay connected</div> */}
             <div className="navigation-bar">
                 <a href="https://github.com/@aimee-liang"><img alt=""src="https://img.icons8.com/ios/70/000000/github.png"/></a>
                 <a href="https://medium.com/@aimee_liang"><img alt="" src="https://img.icons8.com/ios/70/000000/medium-monogram--v1.png"/></a>
@@ -10,9 +11,9 @@ const Navbar = (props) => {
                 <a href="mailto:aimeeeliang@gmail.com"><img alt=""src="https://img.icons8.com/wired/70/000000/email.png"/></a>
             </div>
 
-            <div className="design-credit">
+            {/* <div className="design-credit">
                 <p>Design by Aimee Liang</p>
-            </div>
+            </div> */}
 
         </>
     )
