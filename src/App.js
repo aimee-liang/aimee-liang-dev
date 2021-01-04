@@ -1,33 +1,35 @@
-import React, {useState} from "react"
+import React from "react"
 import Navbar from "./Components/Navbar"
 // import Header from "./Components/Header"
 import AboutMe from "./Components/AboutMe"
 import Projects from "./Components/Projects"
-import {ThemeProvider} from "styled-components"
-import {GlobalStyles} from "./Components/globalStyles"
-import {lightTheme, darkTheme} from "./Components/Themes"
+// import {ThemeProvider} from "styled-components"
+// import {GlobalStyles} from "./Components/globalStyles"
+// import {lightTheme, darkTheme} from "./Components/Themes"
+// import {useDarkMode} from "./Components/useDarkMode"
 
 const App = () => {
 
-  const [theme, setTheme] = useState("light")
+  // const [theme, mountedComponent] = useDarkMode()
+  // const themeMode = theme === "light" ? lightTheme : darkTheme
 
-  const themeToggler = () => {
-    theme === "light" ? setTheme("dark") : setTheme("light")
-  }
+  // const themeToggler = () => {
+  //   theme === "light" ? setTheme("dark") : setTheme("light")
+  // }
 
   return(
-    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme }>
+    // <ThemeProvider theme={theme} toggleTheme={themeToggler}>
       <>
-      <GlobalStyles/>
+      {/* <GlobalStyles/> */}
       <div className="app">
-        <button onClick={themeToggler}>Change Modes</button>
+        {/* <button onClick={themeToggler}>Change Modes</button> */}
           {/* <Header /> */}
           <AboutMe/>
           <Projects/>
           <Navbar/>
       </div>
       </>
-    </ThemeProvider>
+    // </ThemeProvider>
   )
 }
 

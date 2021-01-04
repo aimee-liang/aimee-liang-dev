@@ -35,7 +35,7 @@
 }
 
 .tetris {
-  border: solid 5px #85D6FF;
+  border: solid 5px black;
   height: auto;
   width: 20vw;
   margin-left: 1%;
@@ -52,7 +52,7 @@
 }
 
 .ubike {
-  border: solid 5px #85D6FF;
+  border: solid 5px black;
   height: auto;
   width: 20vw;
   align-items: center;
@@ -68,7 +68,7 @@
 }
 
 .munch{
-  border: solid 5px #85D6FF;
+  border: solid 5px black;
   height: auto;
   width: 20vw;
   align-items: center;
@@ -78,7 +78,7 @@
 
 
 .flatiron-trivia {
-  border: solid 5px #85D6FF;
+  border: solid 5px black;
   height: auto;
   width: 20vw;
   align-items: center;
@@ -94,7 +94,7 @@
 }
 
 .kl-finance {
-  border: solid 5px #85D6FF;
+  border: solid 5px black;
   height: auto;
   width: 20vw;
   align-items: center;
@@ -103,7 +103,7 @@
 }
 
 .portfolio {
-  border: solid 5px #85D6FF;
+  border: solid 5px black;
   height: auto;
   width: 20vw;
   align-items: center;
