@@ -1,6 +1,4 @@
 import React, {useState} from "react"
-// import 'semantic-ui-css/semantic.min.css'
-// import {Button} from "semantic-ui-react"
 
 const Projects = props => {
 
@@ -88,6 +86,7 @@ const Projects = props => {
                         </ul>
 
                         <div className="ubike-links">
+                            <a href="docs.google.com"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
                             <a href="https://github.com/aimee-liang/ubike-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
@@ -117,6 +116,7 @@ const Projects = props => {
                         </ul>
 
                         <div className="munch-links">
+                            <a href="docs.google.com"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
                             <a href="https://github.com/aimee-liang/munch-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
@@ -142,6 +142,7 @@ const Projects = props => {
                         </ul>
 
                         <div className="flatiron-trivia-links">
+                            <a href="docs.google.com"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
                             <a href="https://github.com/aimee-liang/flatiron-trivia-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
@@ -167,7 +168,28 @@ const Projects = props => {
                         </ul>
 
                         <div className="kl-finance-links">
+                            <a href="docs.google.com"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
                             <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
+                        </div>
+                    </div>
+
+{/* next project */}
+
+                    <div className="avatar-cli">
+
+                        <div className="description">
+                            <h2>Avatar CLI</h2>
+                            <p>Text adventure game based on James Cameron's movie</p>
+                        </div>
+
+                        <ul className="project-tech-list">
+                            <li>Ruby</li>
+                            <li>ActiveRecord</li>
+                        </ul>
+
+                        <div className="kl-finance-links">
+                            <a href="docs.google.com"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
+                            <a href="https://github.com/Johnnie71/ruby-project-guidelines-nyc01-seng-ft-082420/tree/JohnnieG/app"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
                     </div>
 
