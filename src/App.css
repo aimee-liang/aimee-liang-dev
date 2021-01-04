@@ -138,7 +138,8 @@
 }
 
 .portfolio-links {
-  position: absolute;
+  position: sticky;
+  bottom: 0;
 }
 
 .projects-container {
