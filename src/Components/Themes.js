@@ -1,12 +1,17 @@
-export const lightTheme = {
-    body: '#FFF',
-    text: '#363537',
-    toggleBorder: '#FFF',
-    background: '#363537',
+const white = "#FFFFFF"
+const black = "#161617"
+const gray = "#F8F8F9"
+
+const themeLight = {
+    background: gray,
+    body: black
 }
-export const darkTheme = {
-    body: '#363537',
-    text: '#FAFAFA',
-    toggleBorder: '#6B8096',
-    background: '#999',
+
+const themeDark = {
+    background: black,
+    body: white
 }
+
+const theme = mode => (mode === "dark" ? themeDark : themeLight)
+
+export default theme
