@@ -45,6 +45,7 @@
   width: 20vw;
   margin-left: 1%;
   margin-right: 1%;
+  position: relative;
 }
 
 .tetris-image{
@@ -57,7 +58,8 @@
 }
 
 .tetris-links {
-  align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .ubike {
@@ -67,6 +69,7 @@
   align-items: center;
   margin-left: 1%;
   margin-right: 1%;
+  position: relative;
 }
 
 .ubike-image img{
@@ -77,7 +80,8 @@
 }
 
 .ubike-links {
-  align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .munch{
@@ -87,10 +91,12 @@
   align-items: center;
   margin-left: 1%;
   margin-right: 1%;
+  position: relative;
 }
 
 .munch-links {
-  align-items: center;
+  /* position: absolute; */
+  /* bottom: 0; */
 }
 
 .flatiron-trivia {
@@ -101,6 +107,7 @@
   margin-left: 1%;
   margin-right: 1%;
   margin-top: 5%;
+  position: relative;
 }
 
 .flatiron-trivia-image img {
@@ -111,7 +118,8 @@
 }
 
 .flatiron-trivia-links {
-  align-items: center;
+  /* position: absolute; */
+  bottom: 0;
 }
 
 .kl-finance {
@@ -122,10 +130,12 @@
   margin-left: 1%;
   margin-right: 1%;
   margin-top: 5%;
+  position: relative;
 }
 
 .kl-finance-links {
-  align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .portfolio {
@@ -135,10 +145,11 @@
   align-items: center;
   margin-left: 1%;
   margin-right: 1%;
+  position: relative;
 }
 
 .portfolio-links {
-  position: sticky;
+  position: absolute;
   bottom: 0;
 }
 
@@ -180,9 +191,3 @@
 .design-credit {
   text-align: center;
 }
-/* 
-.about {
-  width: 100vw;
-  height: 100vh;
-  background-color: #2EC0F9;
-} */
