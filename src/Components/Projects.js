@@ -71,7 +71,7 @@ const Projects = props => {
 
                         <div className="description">
                             <h2>ubike</h2>
-                            <p>Fullstack app to find and check into bike parking shelters in New York City</p>
+                            <p>Fullstack app to locate, check into, and favorite bike parking shelters throughout New York City</p>
                         </div>
 
                         <ul className="project-tech-list">
@@ -86,7 +86,7 @@ const Projects = props => {
                         </ul>
 
                         <div className="ubike-links">
-                            <a href="docs.google.com"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
+                            <a href="https://youtu.be/Fx4ioI88JUQ"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
                             <a href="https://github.com/aimee-liang/ubike-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
