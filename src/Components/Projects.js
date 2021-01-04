@@ -53,7 +53,7 @@ const Projects = props => {
                         </div>
 
                         <div className="tetris-links">
-                            <a href="https://google.com"><img alt=""src="https://img.icons8.com/carbon-copy/80/000000/domain.png"/></a>
+                            {/* <a href="https://google.com"><img alt=""src="https://img.icons8.com/carbon-copy/80/000000/domain.png"/></a> */}
                             <a href="https://github.com/aimee-liang/tetris"><img alt=""src="https://img.icons8.com/carbon-copy/60/000000/github.png"/></a>
                         </div>
 
