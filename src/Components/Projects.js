@@ -31,7 +31,7 @@ const Projects = props => {
                         </ul>
 
                         <div className="portfolio-links">
-                            {/* <a href="https://google.com"><img alt=""src="https://img.icons8.com/carbon-copy/80/000000/domain.png"/></a> */}
+                            <a href="https://google.com"><img alt=""src="https://img.icons8.com/nolan/60/web.png"/></a>
                             <a href="https://github.com/aimee-liang/aimee-liang-dev"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
