@@ -4,7 +4,6 @@ import Navbar from "./Components/Navbar"
 import AboutMe from "./Components/AboutMe"
 import Projects from "./Components/Projects"
 // import {ThemeProvider} from "styled-components"
-// import {GlobalStyles} from "./Components/globalStyles"
 // import {theme} from "./Components/Theme"
 // import {useDarkMode} from "./Components/useDarkMode"
 
