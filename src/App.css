@@ -15,7 +15,6 @@
   transform: translateY(-50%);
 }
 
-
 .me-paragraph{
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
@@ -57,6 +56,10 @@
   width: 15vw;
 }
 
+.tetris-links {
+  align-items: center;
+}
+
 .ubike {
   border: solid 5px black;
   height: auto;
@@ -73,6 +76,10 @@
   padding-right: 20px;
 }
 
+.ubike-links {
+  align-items: center;
+}
+
 .munch{
   border: solid 5px black;
   height: auto;
@@ -80,6 +87,10 @@
   align-items: center;
   margin-left: 1%;
   margin-right: 1%;
+}
+
+.munch-links {
+  align-items: center;
 }
 
 .flatiron-trivia {
@@ -99,6 +110,10 @@
   padding-right: 20px;
 }
 
+.flatiron-trivia-links {
+  align-items: center;
+}
+
 .kl-finance {
   border: solid 5px black;
   height: auto;
@@ -107,6 +122,10 @@
   margin-left: 1%;
   margin-right: 1%;
   margin-top: 5%;
+}
+
+.kl-finance-links {
+  align-items: center;
 }
 
 .portfolio {
@@ -118,12 +137,15 @@
   margin-right: 1%;
 }
 
+.portfolio-links {
+  align-items: center;
+}
+
 .projects-container {
   padding-left: 2%;
   padding-right: 2%;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
 }
 
 .projects-container h2 {
