@@ -25,9 +25,9 @@ const Projects = () => {
                         </div>
 
                         <ul className="project-tech-list">
-                            <li>CSS</li>
-                            <li>React</li>
-                            <li>Icons8</li>
+                            <span>#CSS</span>
+                            <span>#React</span>
+                            <span>#Icons8</span>
                         </ul>
 
                         <div className="portfolio-links">
