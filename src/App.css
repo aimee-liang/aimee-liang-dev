@@ -195,17 +195,19 @@
   align-items: center;
   overflow: visible;
   word-break: break-all;
+  margin-bottom: 20%;
 }
 
 .projects-container span {
   font-family: 'Cutive Mono', monospace;
   font-size: 18px;
+  height: auto;
   /* border: solid 1px white; */
   /* box-shadow: 0px 0px 5px white; */
   border-radius: 5px;
   margin-left: 2%;
   margin-top: 1%;
-  margin-bottom: 1%;
+  /* margin-bottom: 1%; */
   /* padding: 2px 2px 2px 2px; */
   margin-right: 2%;
 }
@@ -228,6 +230,8 @@
 
 .description {
   font-family: 'Amiri', serif;
+  height: auto;
+  margin-bottom: 12%;
 }
 
 .design-credit {
