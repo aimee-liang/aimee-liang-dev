@@ -24,11 +24,11 @@ const Projects = () => {
                             <p>First deployment of personal portfolio website</p>
                         </div>
 
-                        <ul className="project-tech-list">
+                        <div className="project-tech-list">
                             <span>#CSS</span>
                             <span>#React</span>
                             <span>#Icons8</span>
-                        </ul>
+                        </div>
 
                         <div className="portfolio-links">
                             <a href="https://google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
@@ -49,11 +49,11 @@ const Projects = () => {
                             <p>Classic game of Tetris built using vanilla JavaScript</p>
                         </div>
 
-                        <ul className="project-tech-list">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
+                        <div className="project-tech-list">
+                            <span>#HTML</span>
+                            <span>#CSS</span>
+                            <span>#JavaScript</span>
+                        </div>
 
                         <div className="tetris-links">
                             {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
@@ -74,16 +74,18 @@ const Projects = () => {
                             <p>Fullstack app to locate, check into, and favorite bike parking shelters throughout New York City</p>
                         </div>
 
-                        <ul className="project-tech-list">
-                            <li>React</li>
-                            <li>Rails</li>
-                            <li>PostgresQL</li>
-                            <li>JWT</li>
-                            <li>BCrypt</li>
-                            <li>API</li>
-                            <li>CSS</li>
-                            <li>Material-UI</li>
-                        </ul>
+                        <div className="project-tech-list">
+                            <span>#React</span>
+                            <span>#Rails</span>
+                            <span>#PostgresQL</span>
+                            <br></br>
+                            <span>#JWT</span>
+                            <span>#BCrypt</span>
+                            <span>#API</span>
+                            <span>#CSS</span>
+                            <br></br>
+                            <span>#Material-UI</span>
+                        </div>
 
                         <div className="ubike-links">
                             <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>
