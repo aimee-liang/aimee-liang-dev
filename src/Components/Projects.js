@@ -27,7 +27,6 @@ const Projects = () => {
                         <div className="project-tech-list">
                             <span>#CSS</span>
                             <span>#React</span>
-                            <span>#Icons8</span>
                         </div>
 
                         <div className="portfolio-links">
@@ -117,7 +116,7 @@ const Projects = () => {
                         </div>
 
                         <div className="munch-links">
-                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
+                            <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>
                             <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/munch-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
@@ -144,7 +143,7 @@ const Projects = () => {
                         </div>
 
                         <div className="flatiron-trivia-links">
-                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>     */}
+                            <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>    
                             <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/flatiron-trivia-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
@@ -171,7 +170,7 @@ const Projects = () => {
                         </div>
 
                         <div className="kl-finance-links">
-                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
+                            <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>
                             <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
