@@ -1,6 +1,6 @@
 import React from "react"
 
-const ProfilePic = props => {
+const ProfilePic = () => {
     return(
         <div className="profile-pic-container">
             <img alt="" src="/aimee_liang_profile.png" />

@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 
-const Projects = props => {
+const Projects = () => {
 
     const [inHoverTetris, setHoverTetris] = useState(false)
     const [inHoverUbike, setHoverUbike] = useState(false)
@@ -21,7 +21,7 @@ const Projects = props => {
 
                         <div className="description">
                             <h2>Portfolio</h2>
-                            <p>Portfolio website</p>
+                            <p>First deployment of personal portfolio website</p>
                         </div>
 
                         <ul className="project-tech-list">
@@ -31,7 +31,7 @@ const Projects = props => {
                         </ul>
 
                         <div className="portfolio-links">
-                            <a href="https://google.com"><img alt=""src="https://img.icons8.com/nolan/60/web.png"/></a>
+                            <a href="https://google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/aimee-liang-dev"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
@@ -46,7 +46,7 @@ const Projects = props => {
 
                         <div className="description">
                             <h2>Tetris</h2>
-                            <p>Tetris built using vanilla JavaScript</p>
+                            <p>Classic game of Tetris built using vanilla JavaScript</p>
                         </div>
 
                         <ul className="project-tech-list">
@@ -56,7 +56,7 @@ const Projects = props => {
                         </ul>
 
                         <div className="tetris-links">
-                            {/* <a href="https://google.com"><img alt=""src="https://img.icons8.com/carbon-copy/80/000000/domain.png"/></a> */}
+                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
                             <a href="https://github.com/aimee-liang/tetris"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
@@ -86,7 +86,8 @@ const Projects = props => {
                         </ul>
 
                         <div className="ubike-links">
-                            <a href="https://youtu.be/Fx4ioI88JUQ"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
+                            <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>
+                            <a href="https://youtu.be/Fx4ioI88JUQ"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/ubike-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
@@ -116,7 +117,8 @@ const Projects = props => {
                         </ul>
 
                         <div className="munch-links">
-                            <a href="docs.google.com"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
+                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
+                            <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/munch-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
@@ -130,7 +132,7 @@ const Projects = props => {
 
                         <div className="description">
                             <h2>Flatiron Trivia</h2>
-                            <p>Fullstack Trivia app built using JavaScript</p>
+                            <p>Fullstack Trivia app built using vanilla JavaScript</p>
                         </div>
 
                         <ul className="project-tech-list">
@@ -142,7 +144,8 @@ const Projects = props => {
                         </ul>
 
                         <div className="flatiron-trivia-links">
-                            <a href="docs.google.com"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
+                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>     */}
+                            <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/flatiron-trivia-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
@@ -168,7 +171,8 @@ const Projects = props => {
                         </ul>
 
                         <div className="kl-finance-links">
-                            <a href="docs.google.com"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
+                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
+                            <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
                     </div>
@@ -185,10 +189,11 @@ const Projects = props => {
                         <ul className="project-tech-list">
                             <li>Ruby</li>
                             <li>ActiveRecord</li>
+                            <li>SQLite3</li>
                         </ul>
 
-                        <div className="kl-finance-links">
-                            <a href="docs.google.com"><img alt="" src="https://img.icons8.com/nolan/60/youtube-music.png"/></a>
+                        <div className="avatar-links">
+                            <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/Johnnie71/ruby-project-guidelines-nyc01-seng-ft-082420/tree/JohnnieG/app"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
                     </div>
