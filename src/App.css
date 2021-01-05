@@ -59,6 +59,7 @@
   position: absolute;
   bottom: 0;
   display: inline-block;
+  margin-left: 2%;
 }
 
 .ubike {
@@ -84,6 +85,7 @@
   position: absolute;
   bottom: 0;
   display: inline-block;
+  margin-left: 2%;
 }
 
 .munch{
@@ -102,6 +104,7 @@
   position: sticky;
   bottom: 0;
   display: inline-block;
+  margin-left: 2%;
 }
 
 .flatiron-trivia {
@@ -128,6 +131,7 @@
   /* position: absolute; */
   bottom: 0;
   display: inline-block;
+  margin-left: 2%;
 }
 
 .kl-finance {
@@ -147,6 +151,7 @@
   position: absolute;
   bottom: 0;
   display: inline-block;
+  margin-left: 2%;
 }
 
 .portfolio {
@@ -165,6 +170,7 @@
   position: absolute;
   bottom: 0;
   display: inline-block;
+  margin-left: 2%;
 }
 
 .projects-container {
@@ -204,10 +210,10 @@
   /* border: solid 1px white; */
   /* box-shadow: 0px 0px 5px white; */
   border-radius: 5px;
-  margin-left: 2%;
+  margin-left: 1%;
   margin-top: 1%;
   /* margin-bottom: 1%; */
-  /* padding: 2px 2px 2px 2px; */
+  padding: 2px 2px 2px 2px;
   margin-right: 2%;
 }
 
@@ -257,6 +263,7 @@
   position: absolute;
   bottom: 0;
   display: inline-block;
+  margin-left: 2%;
 }
 
 .about {

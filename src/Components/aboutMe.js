@@ -12,7 +12,7 @@ const AboutMe = () => {
 
                 <div className="typewriter">
                     <Typewriter options={{
-                        strings: ["Hi, I'm Aimee"],
+                        strings: ["Hi, I'm Aimee."],
                         autoStart: true,
                         loop: true,
                     }} />

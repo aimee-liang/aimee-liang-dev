@@ -167,7 +167,7 @@ const Projects = () => {
                             <span>#CSS</span>
                             <span>#Rails</span>
                             <span>#SQLite3</span>
-                            <span>Bootstrap</span>
+                            <span>#Bootstrap</span>
                         </div>
 
                         <div className="kl-finance-links">
