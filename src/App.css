@@ -99,7 +99,7 @@
 }
 
 .munch-links {
-  /* position: absolute; */
+  position: sticky;
   bottom: 0;
   display: inline-block;
 }
@@ -125,7 +125,7 @@
 }
 
 .flatiron-trivia-links {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   display: inline-block;
 }
@@ -192,10 +192,9 @@
   margin-left: 5%;
   display: block;
   flex-wrap: wrap;
-  align-items: center;
   overflow: visible;
   word-break: break-all;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 
 .projects-container span {

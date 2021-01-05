@@ -2,11 +2,11 @@ import React, {useState} from "react"
 
 const Projects = () => {
 
-    const [inHoverTetris, setHoverTetris] = useState(false)
-    const [inHoverUbike, setHoverUbike] = useState(false)
-    const [inHoverMunch, setHoverMunch] = useState(false)
-    const [inHoverFlatironTrivia, setHoverFlatironTrivia] = useState(false)
-    const [inHoverKLFinance, setHoverKLFinance] = useState(false)
+    // const [inHoverTetris, setHoverTetris] = useState(false)
+    // const [inHoverUbike, setHoverUbike] = useState(false)
+    // const [inHoverMunch, setHoverMunch] = useState(false)
+    // const [inHoverFlatironTrivia, setHoverFlatironTrivia] = useState(false)
+    // const [inHoverKLFinance, setHoverKLFinance] = useState(false)
 
 
     return (
@@ -39,7 +39,7 @@ const Projects = () => {
 
 {/* next project */}
 
-                    <div className="tetris" onMouseEnter={() => setHoverTetris(true)} onMouseLeave={() => setHoverTetris(false)}>
+                    <div className="tetris">
                         {/* <div className="tetris-image">
                             {inHoverTetris && <img alt="tetris" src="/Tetris.png"/>}
                         </div> */}
@@ -64,7 +64,7 @@ const Projects = () => {
 
 {/* next project */}
 
-                    <div className="ubike" onMouseEnter={() => setHoverUbike(true)} onMouseLeave={()=> setHoverUbike(false)}>
+                    <div className="ubike">
                         {/* <div className="ubike-image">
                             {inHoverUbike && <img alt="ubike" src="/ubike.png" />}
                         </div> */}
@@ -95,7 +95,7 @@ const Projects = () => {
 
 {/* next project */}
 
-                    <div className="munch" onMouseEnter={() => setHoverMunch(true)} onMouseLeave={()=> setHoverMunch(false)}>
+                    <div className="munch">
                         {/* <div className="munch-image">
                             {inHoverMunch && <img alt="munch" src="" />}
                         </div> */}
@@ -125,7 +125,7 @@ const Projects = () => {
                     </div>
 {/* next project */}
 
-                    <div className="flatiron-trivia" onMouseEnter={() => setHoverFlatironTrivia(true)} onMouseLeave={()=> setHoverFlatironTrivia(false)}>
+                    <div className="flatiron-trivia">
                         {/* <div className="flatiron-trivia-image">
                             {inHoverFlatironTrivia && <img alt="flatiron-trivia" src="Flatiron Trivia.png" />}
                         </div> */}
@@ -152,7 +152,7 @@ const Projects = () => {
                     </div>
 {/* next project */}
 
-                    <div className="kl-finance" onMouseEnter={() => setHoverKLFinance(true)} onMouseLeave={()=> setHoverKLFinance(false)}>
+                    <div className="kl-finance">
                         {/* <div className="kl-finance-image">
                             {inHoverKLFinance && <img alt="kl-finance" src="" />}
                         </div> */}
@@ -167,7 +167,7 @@ const Projects = () => {
                             <span>#CSS</span>
                             <span>#Rails</span>
                             <span>#SQLite3</span>
-                            <span>#Bootstrap</span>
+                            <span>Bootstrap</span>
                         </div>
 
                         <div className="kl-finance-links">
