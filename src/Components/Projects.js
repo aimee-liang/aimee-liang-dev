@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React /*{useState} */ from "react"
 
 const Projects = () => {
 
@@ -30,7 +30,7 @@ const Projects = () => {
                         </div>
 
                         <div className="portfolio-links">
-                            <a href="https://google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
+                            {/* <a href="https://google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
                             <a href="https://github.com/aimee-liang/aimee-liang-dev"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
@@ -85,7 +85,7 @@ const Projects = () => {
                         </div>
 
                         <div className="ubike-links">
-                            <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>
+                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
                             <a href="https://youtu.be/Fx4ioI88JUQ"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/ubike-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
@@ -116,8 +116,8 @@ const Projects = () => {
                         </div>
 
                         <div className="munch-links">
-                            <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>
-                            <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
+                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
+                            {/* <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
                             <a href="https://github.com/aimee-liang/munch-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
@@ -143,8 +143,8 @@ const Projects = () => {
                         </div>
 
                         <div className="flatiron-trivia-links">
-                            <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>    
-                            <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
+                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>     */}
+                            {/* <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
                             <a href="https://github.com/aimee-liang/flatiron-trivia-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
@@ -170,8 +170,8 @@ const Projects = () => {
                         </div>
 
                         <div className="kl-finance-links">
-                            <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>
-                            <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
+                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
+                            {/* <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
                             <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
                     </div>
@@ -192,8 +192,7 @@ const Projects = () => {
                         </div>
 
                         <div className="avatar-links">
-                            <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
-                            <a href="https://github.com/Johnnie71/ruby-project-guidelines-nyc01-seng-ft-082420/tree/JohnnieG/app"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
+                            <a href="https://github.com/Johnnie71/ruby-project-guidelines-nyc01-seng-ft-082420"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
                     </div>
 
