@@ -207,13 +207,15 @@
   font-family: 'Cutive Mono', monospace;
   font-size: 18px;
   height: auto;
-  /* border: solid 1px white; */
+  display: inline-block;
+  flex-wrap: wrap;
+  color: white;
+  border: solid 1px white;
   /* box-shadow: 0px 0px 5px white; */
   border-radius: 5px;
   margin-left: 1%;
   margin-top: 1%;
-  /* margin-bottom: 1%; */
-  padding: 2px 2px 2px 2px;
+  padding: 2px 2px 3px 3px;
   margin-right: 2%;
 }
 
