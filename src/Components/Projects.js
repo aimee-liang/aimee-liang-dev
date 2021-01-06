@@ -45,7 +45,7 @@ const Projects = () => {
 
                         <div className="description">
                             <h2>Tetris</h2>
-                            <p>Classic game of Tetris built using vanilla JavaScript</p>
+                            <p>Classic game of Tetris built using vanilla JavaScript, CSS, and HTML</p>
                         </div>
 
                         <div className="project-tech-list">
