@@ -8,7 +8,7 @@ const Navbar = () => {
                 <a href="https://github.com/@aimee-liang"><img alt="" src="https://img.icons8.com/nolan/80/github.png"/></a>
                 <a href="https://medium.com/@aimee_liang"><img alt="" src="https://img.icons8.com/nolan/80/medium-new.png"/></a>
                 <a href="https://www.linkedin.com/in/aimeeliang/"><img alt="" src="https://img.icons8.com/nolan/80/linkedin.png"/></a>
-                <a href="mailto:aimeeeliang@gmail.com"><img alt="" src="https://img.icons8.com/nolan/80/email.png"/></a>
+                <a href="mailto:hello@aimeeliang.com"><img alt="" src="https://img.icons8.com/nolan/80/email.png"/></a>
             </div>
 
             <div className="design-credit">
