@@ -19,9 +19,7 @@ const AboutMe = () => {
                 </div>
 
                 <div className="me">
-                    <p className="me-paragraph">I'm a Fullstack Web Developer and Software Engineer based in New York City.
-                    <br></br>
-                    I'm seeking opportunities to build meaningful and creative products to help make people’s lives easier. 
+                    <p className="me-paragraph">I'm a Fullstack Web Developer and Software Engineer, seeking opportunities to build meaningful and creative products to help make people’s lives easier. 
                     </p>
                 </div>
 

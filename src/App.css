@@ -16,6 +16,8 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 25px;
   color: white;
+  margin-right: 10%;
+  /* display: block; */
 }
 
 .header-container {
