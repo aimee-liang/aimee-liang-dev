@@ -56,6 +56,7 @@ const Projects = () => {
 
                         <div className="tetris-links">
                             {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
+                            <a href="https://youtu.be/xk9MYz-CMx8"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/tetris"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
