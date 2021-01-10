@@ -60,10 +60,6 @@
   box-shadow: 0px 0px 15px white;
 }
 
-.tetris-image{
-  align-items: center;
-}
-
 .tetris-image img {
   height: 20vh;
   width: 15vw;
@@ -89,20 +85,20 @@
   box-shadow: 0px 0px 15px white;
 }
 
-.ubike-image img{
-  height: 25vh;
-  width: 15vw;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.ubike-links {
-  /* position: absolute; */
+.links {
   bottom: 0;
   display: inline-block;
   margin-left: 2%;
   margin-bottom: 2%;
 }
+
+/* .ubike-links { */
+  /* position: absolute; */
+  /* bottom: 0;
+  display: inline-block;
+  margin-left: 2%;
+  margin-bottom: 2%;
+} */
 
 .munch{
   border: solid 5px white;
@@ -117,13 +113,13 @@
   padding-bottom: 105px;
 }
 
-.munch-links {
+/* .munch-links { */
   /* position: absolute; */
-  bottom: 0;
+  /* bottom: 0;
   display: inline-block;
   margin-left: 2%;
   margin-bottom: 2%;
-}
+} */
 
 .flatiron-trivia {
   border: solid 5px white;
@@ -138,20 +134,13 @@
   box-shadow: 0px 0px 15px white;
 }
 
-.flatiron-trivia-image img {
-  height: 25vh;
-  width: 15vw;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.flatiron-trivia-links {
+/* .flatiron-trivia-links {
   /* position: absolute; */
-  bottom: 0;
-  display: inline-block;
-  margin-left: 2%;
-  margin-bottom: 2%;
-}
+  /* bottom: 0; */
+  /* display: inline-block; */
+  /* margin-left: 2%; */
+  /* margin-bottom: 2%; */
+/* } */
 
 .kl-finance {
   border: solid 5px white;
@@ -166,13 +155,13 @@
   box-shadow: 0px 0px 15px white;
 }
 
-.kl-finance-links {
+/* .kl-finance-links {
   /* position: absolute; */
-  bottom: 0;
-  display: inline-block;
-  margin-left: 2%;
-  margin-bottom: 2%;
-}
+  /* bottom: 0; */
+  /* display: inline-block; */
+  /* margin-left: 2%; */
+  /* margin-bottom: 2%; */
+/* } */
 
 .portfolio {
   border: solid 5px white;
@@ -188,13 +177,13 @@
   box-shadow: 0px 0px 15px white;
 }
 
-.portfolio-links {
+/* .portfolio-links { */
   /* position: absolute; */
-  bottom: 0;
+  /* bottom: 0;
   display: inline-block;
   margin-left: 2%;
   margin-bottom: 2%;
-}
+} */
 
 .projects-container {
   padding-left: 5%;
@@ -310,13 +299,13 @@
   box-shadow: 0px 0px 15px white;
 }
 
-.avatar-links {
+/* .avatar-links { */
   /* position: absolute; */
-  bottom: 0;
+  /* bottom: 0;
   display: inline-block;
   margin-left: 2%;
   margin-bottom: 2%;
-}
+} */
 
 .about {
   margin-top: 5%;

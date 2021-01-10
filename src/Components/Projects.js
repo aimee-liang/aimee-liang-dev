@@ -29,7 +29,8 @@ const Projects = () => {
                             <span>#React</span>
                         </div>
 
-                        <div className="portfolio-links">
+                        {/* <div className="portfolio-links"> */}
+                        <div className="links">
                             {/* <a href="https://google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
                             <a href="https://github.com/aimee-liang/aimee-liang-dev"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
@@ -54,7 +55,8 @@ const Projects = () => {
                             <span>#JavaScript</span>
                         </div>
 
-                        <div className="tetris-links">
+                        {/* <div className="tetris-links"> */}
+                        <div className="links">
                             {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
                             <a href="https://youtu.be/xk9MYz-CMx8"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/tetris"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
@@ -85,7 +87,8 @@ const Projects = () => {
                             <span>#Material-UI</span>
                         </div>
 
-                        <div className="ubike-links">
+                        {/* <div className="ubike-links"> */}
+                        <div className="links">
                             {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
                             <a href="https://youtu.be/Fx4ioI88JUQ"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/ubike-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
@@ -116,7 +119,8 @@ const Projects = () => {
                             <span>#BCrypt</span>
                         </div>
 
-                        <div className="munch-links">
+                        {/* <div className="munch-links"> */}
+                        <div className="links">
                             {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
                             <a href="https://youtu.be/goifKrjFAh8"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/munch-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
@@ -143,7 +147,8 @@ const Projects = () => {
                             <span>#PostgresQL</span>
                         </div>
 
-                        <div className="flatiron-trivia-links">
+                        {/* <div className="flatiron-trivia-links"> */}
+                        <div className="links">
                             {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>     */}
                             {/* <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
                             <a href="https://github.com/aimee-liang/flatiron-trivia-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
@@ -170,7 +175,8 @@ const Projects = () => {
                             <span>#Bootstrap</span>
                         </div>
 
-                        <div className="kl-finance-links">
+                        {/* <div className="kl-finance-links"> */}
+                        <div className="links">
                             {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
                             {/* <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
                             <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
@@ -192,7 +198,8 @@ const Projects = () => {
                             <span>#SQLite3</span>
                         </div>
 
-                        <div className="avatar-links">
+                        {/* <div className="avatar-links"> */}
+                        <div className="links">
                             <a href="https://github.com/Johnnie71/ruby-project-guidelines-nyc01-seng-ft-082420"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
                     </div>
