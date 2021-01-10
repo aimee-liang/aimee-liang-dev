@@ -92,13 +92,6 @@
   margin-bottom: 2%;
 }
 
-/* .ubike-links { */
-  /* position: absolute; */
-  /* bottom: 0;
-  display: inline-block;
-  margin-left: 2%;
-  margin-bottom: 2%;
-} */
 
 .munch{
   border: solid 5px white;
@@ -113,14 +106,6 @@
   padding-bottom: 105px;
 }
 
-/* .munch-links { */
-  /* position: absolute; */
-  /* bottom: 0;
-  display: inline-block;
-  margin-left: 2%;
-  margin-bottom: 2%;
-} */
-
 .flatiron-trivia {
   border: solid 5px white;
   height: auto;
@@ -133,14 +118,6 @@
   color: white;
   box-shadow: 0px 0px 15px white;
 }
-
-/* .flatiron-trivia-links {
-  /* position: absolute; */
-  /* bottom: 0; */
-  /* display: inline-block; */
-  /* margin-left: 2%; */
-  /* margin-bottom: 2%; */
-/* } */
 
 .kl-finance {
   border: solid 5px white;
@@ -155,13 +132,6 @@
   box-shadow: 0px 0px 15px white;
 }
 
-/* .kl-finance-links {
-  /* position: absolute; */
-  /* bottom: 0; */
-  /* display: inline-block; */
-  /* margin-left: 2%; */
-  /* margin-bottom: 2%; */
-/* } */
 
 .portfolio {
   border: solid 5px white;
@@ -176,14 +146,6 @@
   color: white;
   box-shadow: 0px 0px 15px white;
 }
-
-/* .portfolio-links { */
-  /* position: absolute; */
-  /* bottom: 0;
-  display: inline-block;
-  margin-left: 2%;
-  margin-bottom: 2%;
-} */
 
 .projects-container {
   padding-left: 5%;
@@ -298,14 +260,6 @@
   color: white;
   box-shadow: 0px 0px 15px white;
 }
-
-/* .avatar-links { */
-  /* position: absolute; */
-  /* bottom: 0;
-  display: inline-block;
-  margin-left: 2%;
-  margin-bottom: 2%;
-} */
 
 .about {
   margin-top: 5%;
