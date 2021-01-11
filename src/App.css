@@ -7,10 +7,11 @@
   margin-top: auto;
   font-family: 'Cutive Mono', monospace;
   /* font-size: 115px; */
-  font-size: 5em;
+  font-size: 10vmax;
+  line-height: 10vmax;
   color: white;
   text-shadow: 0px 0px 10px white;
-  height: 264px;
+  height: 20vmax;
 }
 
 .me-paragraph{
@@ -33,7 +34,6 @@
 }
 
 .navigation-bar a {
-  /* padding: 0 2%; */
   display: inline-block;
 }
 
@@ -151,7 +151,7 @@
 
 @media only screen and (min-width: 600px) {
   .typewriter {
-    font-size: 115px;
+    /* font-size: 115px; */
     /* height: none; <-- this is currently not working */
   }
   .about {
