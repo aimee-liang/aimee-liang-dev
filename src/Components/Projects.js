@@ -17,7 +17,7 @@ const Projects = () => {
 
                 <div className="projects-container">
 
-                    <div className="portfolio">
+                    <div className="project portfolio">
 
                         <div className="description">
                             <h2>Portfolio</h2>
@@ -38,7 +38,7 @@ const Projects = () => {
 
 {/* next project */}
 
-                    <div className="tetris">
+                    <div className="project tetris">
                         {/* <div className="tetris-image">
                             {inHoverTetris && <img alt="tetris" src="/Tetris.png"/>}
                         </div> */}
@@ -64,7 +64,7 @@ const Projects = () => {
 
 {/* next project */}
 
-                    <div className="ubike">
+                    <div className="project ubike">
                         {/* <div className="ubike-image">
                             {inHoverUbike && <img alt="ubike" src="/ubike.png" />}
                         </div> */}
@@ -95,7 +95,7 @@ const Projects = () => {
 
 {/* next project */}
 
-                    <div className="munch">
+                    <div className="project munch">
                         {/* <div className="munch-image">
                             {inHoverMunch && <img alt="munch" src="" />}
                         </div> */}
@@ -126,7 +126,7 @@ const Projects = () => {
 
 {/* next project */}
 
-                    <div className="flatiron-trivia">
+                    <div className="project flatiron-trivia">
                         {/* <div className="flatiron-trivia-image">
                             {inHoverFlatironTrivia && <img alt="flatiron-trivia" src="Flatiron Trivia.png" />}
                         </div> */}
@@ -154,7 +154,7 @@ const Projects = () => {
 
 {/* next project */}
 
-                    <div className="kl-finance">
+                    <div className="project kl-finance">
                         {/* <div className="kl-finance-image">
                             {inHoverKLFinance && <img alt="kl-finance" src="" />}
                         </div> */}
@@ -181,7 +181,7 @@ const Projects = () => {
 
 {/* next project */}
 
-                    <div className="avatar-cli">
+                    <div className="project avatar-cli">
 
                         <div className="description">
                             <h2>Avatar CLI</h2>
