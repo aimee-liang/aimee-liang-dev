@@ -5,7 +5,6 @@
 
 .typewriter{
   margin-top: auto;
-  margin-bottom: 5%;
   font-family: 'Cutive Mono', monospace;
   /* font-size: 115px; */
   font-size: 5em;
@@ -14,13 +13,11 @@
   height: 264px;
 }
 
-
 .me-paragraph{
   font-family: 'Cormorant Garamond', serif;
   font-size: 25px;
   color: white;
   margin-right: 10%;
-  /* display: block; */
 }
 
 .header-container {
@@ -64,8 +61,6 @@
   padding-right: 2%;
   display: flex;
   flex-wrap: wrap;
-  /* width: 90%;
-  margin: 5%; */
 }
 
 .projects-container div {
@@ -100,7 +95,6 @@
   flex-wrap: wrap;
   color: white;
   border: solid 1px white;
-  /* box-shadow: 0px 0px 5px white; */
   border-radius: 5px;
   margin-left: 1%;
   margin-top: 2%;
@@ -118,7 +112,6 @@
 
 .profile-pic-container img {
   margin: 0 auto;
-  /* height: 30vh; */
   width: 18vw;
   min-width: 200px;
   display: block;
@@ -151,7 +144,7 @@
 .connected {
   text-align: center;
   margin-top: 10%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   color: white;
   text-shadow: 0px 0px 10px white;
   font-size: 30px;
