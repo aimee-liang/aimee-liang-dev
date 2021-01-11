@@ -1,8 +1,6 @@
 .App {
   /* text-align: center; */
   background: black;
-  width: 100vw;
-  display: block;
 } 
 
 .typewriter{
@@ -16,12 +14,6 @@
   height: 264px;
 }
 
-@media only screen and (min-width: 600px) {
-  .typewriter {
-    font-size: 115px;
-    height: none;
-  }
-}
 
 .me-paragraph{
   font-family: 'Cormorant Garamond', serif;
@@ -52,7 +44,6 @@
 .project {
   border: solid 5px white;
   height: auto;
-  /* width: 20vw; */
   align-items: center;
   margin-left: 1%;
   margin-right: 1%;
@@ -82,16 +73,6 @@
   width: 90%;
   margin: 5%;
   /* position: static; */
-}
-
-@media only screen and (min-width: 600px) {
-  .projects-container div {
-    width: 20vw;
-    margin-left: 1%;
-    margin-right: 1%;
-    /* position: absolute; */
-    /* position none in mobile*/
-  }
 }
 
 .projects-container h2 {
@@ -132,7 +113,6 @@
 .projects-header{
   text-align: center;
   font-size: 50px;
-  margin-bottom: 3%;
   margin-top: 5%;
   color: white;
   text-shadow: 0px 0px 7px white;
@@ -147,13 +127,6 @@
   min-width: 200px;
   display: block;
 } 
-
-@media only screen and (min-width: 600px) {
-  .profile-pic-container img {
-    /* display: flex; */
-    margin-left: 5%;
-  }
-}
 
 .description {
   font-family: 'Amiri', serif;
@@ -175,13 +148,6 @@
   /* display: flex; */
 }
 
-@media only screen and (min-width: 600px) {
-  .about {
-    /* background-color: lightblue; */
-    display: flex;
-  }
-}
-
 .about-me-container{
   margin-left: 6%;
 }
@@ -189,8 +155,28 @@
 .connected {
   text-align: center;
   margin-top: 10%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
   color: white;
   text-shadow: 0px 0px 10px white;
   font-size: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+  .typewriter {
+    font-size: 115px;
+    height: none;
+  }
+  .about {
+    display: flex;
+  }
+  .profile-pic-container img {
+    margin-left: 5%;
+  }
+  .projects-container div {
+    width: 20vw;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* position: absolute; */
+    /* position none in mobile*/
+  }
 }
