@@ -1,13 +1,6 @@
-import React /*{useState} */ from "react"
+import React from "react"
 
 const Projects = () => {
-
-    // const [inHoverTetris, setHoverTetris] = useState(false)
-    // const [inHoverUbike, setHoverUbike] = useState(false)
-    // const [inHoverMunch, setHoverMunch] = useState(false)
-    // const [inHoverFlatironTrivia, setHoverFlatironTrivia] = useState(false)
-    // const [inHoverKLFinance, setHoverKLFinance] = useState(false)
-
 
     return (
         <>
@@ -39,9 +32,6 @@ const Projects = () => {
 {/* next project */}
 
                     <div className="project tetris">
-                        {/* <div className="tetris-image">
-                            {inHoverTetris && <img alt="tetris" src="/Tetris.png"/>}
-                        </div> */}
 
                         <div className="description">
                             <h2>Tetris</h2>
@@ -65,9 +55,6 @@ const Projects = () => {
 {/* next project */}
 
                     <div className="project ubike">
-                        {/* <div className="ubike-image">
-                            {inHoverUbike && <img alt="ubike" src="/ubike.png" />}
-                        </div> */}
 
                         <div className="description">
                             <h2>ubike</h2>
@@ -96,9 +83,6 @@ const Projects = () => {
 {/* next project */}
 
                     <div className="project munch">
-                        {/* <div className="munch-image">
-                            {inHoverMunch && <img alt="munch" src="" />}
-                        </div> */}
 
                         <div className="description">
                             <h2>munch</h2>
@@ -127,9 +111,6 @@ const Projects = () => {
 {/* next project */}
 
                     <div className="project flatiron-trivia">
-                        {/* <div className="flatiron-trivia-image">
-                            {inHoverFlatironTrivia && <img alt="flatiron-trivia" src="Flatiron Trivia.png" />}
-                        </div> */}
 
                         <div className="description">
                             <h2>Flatiron Trivia</h2>
@@ -155,9 +136,6 @@ const Projects = () => {
 {/* next project */}
 
                     <div className="project kl-finance">
-                        {/* <div className="kl-finance-image">
-                            {inHoverKLFinance && <img alt="kl-finance" src="" />}
-                        </div> */}
 
                         <div className="description">
                             <h2>KL-Finance</h2>
