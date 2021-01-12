@@ -7,11 +7,11 @@
   margin-top: auto;
   font-family: 'Cutive Mono', monospace;
   /* font-size: 115px; */
-  font-size: 8vmax;
-  line-height: 8vmax;
+  font-size: 7vmax;
+  line-height: 7vmax;
   color: white;
   text-shadow: 0px 0px 10px white;
-  height: 15vmax;
+  height: 12vmax;
 }
 
 .me-paragraph{
