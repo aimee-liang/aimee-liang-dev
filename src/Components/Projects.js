@@ -10,6 +10,25 @@ const Projects = () => {
 
                 <div className="projects-container">
 
+                    <div className="project conscience">
+
+                        <div className="description">
+                            <h2>conscience</h2>
+                            <p>Frontend web app for a fictional design studio, incorporating glassmorphism</p>
+                        </div>
+
+                        <div className="project-tech-list">
+                            <span>#CSS</span>
+                            <span>#HTML</span>
+                        </div>
+
+                        <div className="links">
+                            <a href=""><img alt=""src="https://img.icons8.com/nolan/60/domain.png"/></a>
+                            <a href="https://github.com/aimee-liang/frontend-glassmorphism"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
+                        </div>
+
+                        </div>
+
                     <div className="project portfolio">
 
                         <div className="description">
