@@ -23,7 +23,7 @@ const Projects = () => {
                         </div>
 
                         <div className="links">
-                            <a href=""><img alt=""src="https://img.icons8.com/nolan/60/domain.png"/></a>
+                            <a href="https://aimee-liang.github.io/frontend-glassmorphism/"><img alt=""src="https://img.icons8.com/nolan/60/domain.png"/></a>
                             <a href="https://github.com/aimee-liang/frontend-glassmorphism"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
