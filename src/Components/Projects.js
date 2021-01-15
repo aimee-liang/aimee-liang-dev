@@ -20,6 +20,7 @@ const Projects = () => {
                         <div className="project-tech-list">
                             <span>#CSS</span>
                             <span>#HTML</span>
+                            <span>#mobile-responsive</span>
                         </div>
 
                         <div className="links">
@@ -39,6 +40,7 @@ const Projects = () => {
                         <div className="project-tech-list">
                             <span>#CSS</span>
                             <span>#React</span>
+                            <span>#mobile-responsive</span>
                         </div>
 
                         <div className="links">
