@@ -44,13 +44,10 @@ const Projects = () => {
                         </div>
 
                         <div className="links">
-                            {/* <a href="https://google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
                             <a href="https://github.com/aimee-liang/aimee-liang-dev"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
                     </div>
-
-{/* next project */}
 
                     <div className="project tetris">
 
@@ -72,8 +69,6 @@ const Projects = () => {
                         </div>
 
                     </div>
-
-{/* next project */}
 
                     <div className="project ubike">
 
@@ -101,8 +96,6 @@ const Projects = () => {
 
                     </div>
 
-{/* next project */}
-
                     <div className="project munch">
 
                         <div className="description">
@@ -129,8 +122,6 @@ const Projects = () => {
 
                     </div>
 
-{/* next project */}
-
                     <div className="project flatiron-trivia">
 
                         <div className="description">
@@ -154,8 +145,6 @@ const Projects = () => {
 
                     </div>
 
-{/* next project */}
-
                     <div className="project kl-finance">
 
                         <div className="description">
@@ -177,8 +166,6 @@ const Projects = () => {
                             <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
                     </div>
-
-{/* next project */}
 
                     <div className="project avatar-cli">
 
