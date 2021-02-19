@@ -24,6 +24,7 @@ const Projects = () => {
                         </div>
 
                         <div className="links">
+                            <a href="https://medium.com/design-bootcamp/how-to-make-glassmorphism-more-accessible-9121d816004c"><img alt="" src="https://img.icons8.com/nolan/60/medium-new.png"/></a>
                             <a href="https://aimee-liang.github.io/frontend-glassmorphism/"><img alt=""src="https://img.icons8.com/nolan/60/domain.png"/></a>
                             <a href="https://github.com/aimee-liang/frontend-glassmorphism"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
@@ -34,13 +35,14 @@ const Projects = () => {
 
                         <div className="description">
                             <h2>Portfolio</h2>
-                            <p>First deployment of personal portfolio website</p>
+                            <p>Deployment of personal portfolio website</p>
                         </div>
 
                         <div className="project-tech-list">
                             <span>#CSS</span>
                             <span>#React</span>
                             <span>#Mobile-Responsive</span>
+                            <span>Icons8</span>
                         </div>
 
                         <div className="links">
@@ -81,6 +83,8 @@ const Projects = () => {
                             <span>#React</span>
                             <span>#Rails</span>
                             <span>#PostgreSQL</span>
+                            <span>#React Map GL</span>
+                            <span>#Chatbot</span>
                             <span>#JWT</span>
                             <span>#BCrypt</span>
                             <span>#API</span>
