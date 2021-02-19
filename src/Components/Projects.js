@@ -76,6 +76,7 @@ const Projects = () => {
                     <div className="project ubike">
 
                         <div className="description">
+                            {/* <img alt="ubike" src="https://media.giphy.com/media/5wu4pjdN52n3W2iAop/source.mp4"/> */}
                             <h2>ubike</h2>
                             <p>Fullstack app to locate, check into, and favorite bike parking shelters throughout New York City</p>
                         </div>
