@@ -80,7 +80,7 @@ const Projects = () => {
                         <div className="project-tech-list">
                             <span>#React</span>
                             <span>#Rails</span>
-                            <span>#PostgresQL</span>
+                            <span>#PostgreSQL</span>
                             <span>#JWT</span>
                             <span>#BCrypt</span>
                             <span>#API</span>
@@ -134,7 +134,7 @@ const Projects = () => {
                             <span>#Bootstrap</span>
                             <span>#Rails</span>
                             <span>#CSS</span>
-                            <span>#PostgresQL</span>
+                            <span>#PostgreSQL</span>
                         </div>
 
                         <div className="links">
