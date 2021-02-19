@@ -13,6 +13,7 @@ const Projects = () => {
                     <div className="project conscience">
 
                         <div className="description">
+                            <img alt="conscience" src="/conscience.png"/>
                             <h2>conscience</h2>
                             <p>Frontend web app for a fictional design studio, incorporating glassmorphism</p>
                         </div>

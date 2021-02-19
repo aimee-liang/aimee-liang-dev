@@ -6,7 +6,6 @@
 .typewriter{
   margin-top: auto;
   font-family: 'Cutive Mono', monospace;
-  /* font-size: 115px; */
   font-size: 7vmax;
   line-height: 7vmax;
   color: white;
@@ -126,6 +125,12 @@
   margin-right: 4.5%;
 }
 
+.description img {
+  justify-content: center;
+  height: 200px;
+  width: 275px;
+}
+
 .design-credit {
   text-align: center;
   color: white;
@@ -171,5 +176,10 @@
   }
   .links {
     position: absolute;
+  }
+  .description img{
+    padding-top: 5%;
+    min-height: 22vh; 
+    min-width: 18vw;
   }
 }
