@@ -89,7 +89,7 @@ const Projects = () => {
                             <span>#Chatbot</span>
                             <span>#JWT</span>
                             <span>#BCrypt</span>
-                            <span>#API</span>
+                            <span>#NYC Open Data API</span>
                             <span>#CSS</span>
                             <span>#Material-UI</span>
                         </div>
@@ -114,7 +114,7 @@ const Projects = () => {
                             <span>#Rails</span>
                             <span>#Bootstrap</span>
                             <span>#CSS</span>
-                            <span>#API</span>
+                            <span>#Zomato API</span>
                             <span>#PostgresQL</span>
                             <span>#JWT</span>
                             <span>#BCrypt</span>
@@ -140,6 +140,7 @@ const Projects = () => {
                             <span>#Bootstrap</span>
                             <span>#Rails</span>
                             <span>#CSS</span>
+                            <span>#OpenTDB API</span>
                             <span>#PostgreSQL</span>
                         </div>
 
@@ -160,6 +161,7 @@ const Projects = () => {
 
                         <div className="project-tech-list">
                             <span>#Ruby</span>
+                            <span>#IEX API</span>
                             <span>#CSS</span>
                             <span>#Rails</span>
                             <span>#SQLite3</span>
