@@ -43,7 +43,7 @@ const Projects = () => {
                             <span>#CSS</span>
                             <span>#React</span>
                             <span>#Mobile-Responsive</span>
-                            <span>Icons8</span>
+                            <span>#Icons8</span>
                         </div>
 
                         <div className="links">
