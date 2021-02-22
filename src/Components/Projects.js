@@ -106,7 +106,7 @@ const Projects = () => {
 
                         <div className="description">
                             <h2>munch</h2>
-                            <p>Fullstack App to search restaurants based on cuisine and neighborhood, create and delete reservations</p>
+                            <p>Full Stack App to search restaurants based on cuisine and neighborhood, create and delete reservations</p>
                         </div>
 
                         <div className="project-tech-list">
@@ -115,7 +115,7 @@ const Projects = () => {
                             <span>#Bootstrap</span>
                             <span>#CSS</span>
                             <span>#Zomato API</span>
-                            <span>#PostgresQL</span>
+                            <span>#PostgreSQL</span>
                             <span>#JWT</span>
                             <span>#BCrypt</span>
                         </div>
@@ -132,7 +132,7 @@ const Projects = () => {
 
                         <div className="description">
                             <h2>Flatiron Trivia</h2>
-                            <p>Fullstack Trivia app built using vanilla JavaScript</p>
+                            <p>Full Stack Trivia app built using vanilla JavaScript</p>
                         </div>
 
                         <div className="project-tech-list">
