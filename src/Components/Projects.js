@@ -132,6 +132,7 @@ const Projects = () => {
                     <div className="project flatiron-trivia">
 
                         <div className="description">
+                            <img alt=""src="https://media.giphy.com/media/qzug1mGS16tlZBuxGS/giphy.gif"/>    
                             <h2>Flatiron Trivia</h2>
                             <p>Full Stack Trivia app built using vanilla JavaScript</p>
                         </div>
@@ -146,7 +147,6 @@ const Projects = () => {
                         </div>
 
                         <div className="links">
-                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/>     */}
                             {/* <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
                             <a href="https://github.com/aimee-liang/flatiron-trivia-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
