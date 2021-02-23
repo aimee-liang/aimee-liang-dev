@@ -45,6 +45,7 @@ const Projects = () => {
                             <span>#React</span>
                             <span>#Mobile-Responsive</span>
                             <span>#Icons8</span>
+                            <span>#GIFs</span>
                         </div>
 
                         <div className="links">
