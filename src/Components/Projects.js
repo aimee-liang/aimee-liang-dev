@@ -105,6 +105,7 @@ const Projects = () => {
                     <div className="project munch">
 
                         <div className="description">
+                            <img alt=""src="https://media.giphy.com/media/voZNZQAAEYWaLcqHcl/giphy.gif"/>
                             <h2>munch</h2>
                             <p>Full Stack App to search restaurants based on cuisine and neighborhood, create and delete reservations</p>
                         </div>
@@ -121,7 +122,6 @@ const Projects = () => {
                         </div>
 
                         <div className="links">
-                            {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
                             <a href="https://youtu.be/goifKrjFAh8"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
                             <a href="https://github.com/aimee-liang/munch-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
