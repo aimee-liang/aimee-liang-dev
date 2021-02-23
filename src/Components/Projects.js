@@ -35,6 +35,7 @@ const Projects = () => {
                     <div className="project portfolio">
 
                         <div className="description">
+                            <img alt="portfolio" src="https://media.giphy.com/media/0eIPpnJDJWoa0mHcLS/giphy.gif" />
                             <h2>Portfolio</h2>
                             <p>Deployment of personal portfolio website</p>
                         </div>
@@ -78,7 +79,7 @@ const Projects = () => {
                         <div className="description">
                             <img alt="ubike" src="https://media.giphy.com/media/jYeWOD9QRKbLP4BCm4/giphy.gif"/>
                             <h2>ubike</h2>
-                            <p>Fullstack app to locate, check into, and favorite bike parking shelters throughout New York City</p>
+                            <p>Full Stack app to locate, check into, and favorite New York City bike parking shelters</p>
                         </div>
 
                         <div className="project-tech-list">
@@ -105,7 +106,7 @@ const Projects = () => {
                     <div className="project munch">
 
                         <div className="description">
-                            <img alt=""src="https://media.giphy.com/media/voZNZQAAEYWaLcqHcl/giphy.gif"/>
+                            <img alt="munch"src="https://media.giphy.com/media/voZNZQAAEYWaLcqHcl/giphy.gif"/>
                             <h2>munch</h2>
                             <p>Full Stack App to search restaurants based on cuisine and neighborhood, create and delete reservations</p>
                         </div>
