@@ -134,7 +134,7 @@ const Projects = () => {
                         <div className="description">
                             <img alt=""src="https://media.giphy.com/media/qzug1mGS16tlZBuxGS/giphy.gif"/>    
                             <h2>Flatiron Trivia</h2>
-                            <p>Full Stack Trivia app built using vanilla JavaScript</p>
+                            <p>Full Stack App built for users to play a game of trivia based on various topics</p>
                         </div>
 
                         <div className="project-tech-list">
