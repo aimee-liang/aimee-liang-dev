@@ -127,6 +127,7 @@
 }
 
 .description img {
+  padding-top: 10px;
   justify-content: center;
   height: 200px;
   width: 275px;
