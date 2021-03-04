@@ -12,7 +12,7 @@ const Navbar = () => {
             </div>
 
             <div className="design-credit">
-                <p>Design by Aimee Liang</p>
+                <p>Design by Aimee Liang, 2021</p>
             </div>
 
         </>
