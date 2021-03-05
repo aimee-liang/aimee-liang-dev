@@ -25,9 +25,9 @@ const Projects = () => {
                         </div>
 
                         <div className="links">
-                            <a href="https://medium.com/design-bootcamp/how-to-make-glassmorphism-more-accessible-9121d816004c"><img alt="" src="https://img.icons8.com/nolan/60/medium-new.png"/></a>
-                            <a href="https://aimee-liang.github.io/frontend-glassmorphism/"><img alt=""src="https://img.icons8.com/nolan/60/domain.png"/></a>
-                            <a href="https://github.com/aimee-liang/frontend-glassmorphism"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
+                            <a href="https://medium.com/design-bootcamp/how-to-make-glassmorphism-more-accessible-9121d816004c"><img alt="conscience blog post" src="https://img.icons8.com/nolan/60/medium-new.png"/></a>
+                            <a href="https://aimee-liang.github.io/frontend-glassmorphism/"><img alt="conscience live site"src="https://img.icons8.com/nolan/60/domain.png"/></a>
+                            <a href="https://github.com/aimee-liang/frontend-glassmorphism"><img alt="conscience repo" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
                         </div>
@@ -49,7 +49,7 @@ const Projects = () => {
                         </div>
 
                         <div className="links">
-                            <a href="https://github.com/aimee-liang/aimee-liang-dev"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
+                            <a href="https://github.com/aimee-liang/aimee-liang-dev"><img alt="portfolio" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
                     </div>
@@ -69,7 +69,7 @@ const Projects = () => {
 
                         <div className="links">
                             <a href="https://youtu.be/xk9MYz-CMx8"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
-                            <a href="https://github.com/aimee-liang/tetris"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
+                            <a href="https://github.com/aimee-liang/tetris"><img alt="tetris" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
                     </div>
@@ -98,7 +98,7 @@ const Projects = () => {
                         <div className="links">
                             {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
                             <a href="https://youtu.be/Fx4ioI88JUQ"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
-                            <a href="https://github.com/aimee-liang/ubike-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
+                            <a href="https://github.com/aimee-liang/ubike-frontend"><img alt="ubike" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
                     </div>
@@ -124,7 +124,7 @@ const Projects = () => {
 
                         <div className="links">
                             <a href="https://youtu.be/goifKrjFAh8"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
-                            <a href="https://github.com/aimee-liang/munch-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
+                            <a href="https://github.com/aimee-liang/munch-frontend"><img alt="munch" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
                     </div>
@@ -147,7 +147,7 @@ const Projects = () => {
                         </div>
 
                         <div className="links">
-                            <a href="https://github.com/aimee-liang/flatiron-trivia-frontend"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
+                            <a href="https://github.com/aimee-liang/flatiron-trivia-frontend"><img alt="flatiron-trivia" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
                     </div>
@@ -171,7 +171,7 @@ const Projects = () => {
                         <div className="links">
                             {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
                             {/* <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
-                            <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
+                            <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt="kl-finance" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
                     </div>
 
@@ -189,7 +189,7 @@ const Projects = () => {
                         </div>
 
                         <div className="links">
-                            <a href="https://github.com/Johnnie71/ruby-project-guidelines-nyc01-seng-ft-082420"><img alt="" src="https://img.icons8.com/nolan/60/github.png"/></a>
+                            <a href="https://github.com/Johnnie71/ruby-project-guidelines-nyc01-seng-ft-082420"><img alt="avatar" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
                     </div>
 
