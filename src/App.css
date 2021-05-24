@@ -149,14 +149,14 @@
   margin-left: 6%;
 } */
 
-.connected {
+/* .connected {
   text-align: center;
   margin-top: 10%;
   margin-bottom: 5%;
   color: white;
   text-shadow: 0px 0px 10px white;
   font-size: 30px;
-}
+} */
 
 @media only screen and (min-width: 600px) {
   .typewriter {
