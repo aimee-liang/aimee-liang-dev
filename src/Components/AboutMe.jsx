@@ -1,11 +1,17 @@
-import React from "react"
 import ProfilePic from "./ProfilePic"
 import "../App.css"
 import Typewriter from "typewriter-effect"
+import styled from "styled-components"
 
-const AboutMe = () => {
-    return(
-        <div className="about">
+const About = styled.div`
+    margin-top: 5%;
+    margin-left: 5%
+`
+
+export default function AboutMe (){
+    return (
+        <About>
+        {/* <div className="about"> */}
             <ProfilePic/>
 
             <div className="about-me-container">
@@ -25,7 +31,7 @@ const AboutMe = () => {
 
             </div>
 
-        </div>
+        {/* </div> */}
+        </About>
     )
 }
-export default AboutMe
