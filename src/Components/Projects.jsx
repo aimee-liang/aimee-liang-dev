@@ -1,8 +1,39 @@
+import styled from 'styled-components'
+
+const Links = styled.div`
+    bottom: 0;
+    display: flex;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+`
+
+const ProjectsContainer = styled.div`
+    padding-left: 5%;
+    padding-right: 2%;
+    display: flex;
+    flex-wrap: wrap;
+`
+
+const ProjectsHeader = styled.div`
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5%;
+    color: white;
+    text-shadow: 0px 0px 7px white;
+`
+
+const Project = styled.div`
+    width: 90%;
+    margin: 5%;
+`
+
 export default function Projects(){
 
     return (
         <>
-            <div className="projects-header">Projects</div>
+            <ProjectsHeader>Projects</ProjectsHeader>
+            {/* <div className="projects-header">Projects</div> */}
 
             <div className="projects_box">
 

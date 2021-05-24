@@ -25,12 +25,12 @@
   width: 100%;
 }
 
-.navigation-bar{
+/* .navigation-bar{
   display: flex;
   height: 12vh;
   width: auto;
   justify-content: space-evenly;
-}
+} */
 
 .navigation-bar a {
   display: inline-block;
@@ -102,13 +102,13 @@
   margin-right: 2%;
 }
 
-.projects-header {
+/* .projects-header {
   text-align: center;
   font-size: 50px;
   margin-top: 5%;
   color: white;
   text-shadow: 0px 0px 7px white;
-}
+} */
 
 .profile-pic-container img {
   margin: 0 auto;
@@ -133,12 +133,12 @@
   width: 275px;
 }
 
-.design-credit {
+/* .design-credit {
   text-align: center;
   color: white;
   font-size: 18px;
   margin-bottom: 2%;
-}
+} */
 
 /* .about {
   margin-top: 5%;
