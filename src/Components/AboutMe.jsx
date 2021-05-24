@@ -8,13 +8,17 @@ const About = styled.div`
     margin-left: 5%
 `
 
+const AboutMeContainer = styled.div`
+    margin-left: 6%;
+`
+
 export default function AboutMe (){
     return (
         <About>
         {/* <div className="about"> */}
             <ProfilePic/>
-
-            <div className="about-me-container">
+                <AboutMeContainer>
+                {/* {<div className="about-me-container">} */}
 
                 <div className="typewriter">
                     <Typewriter options={{
@@ -29,8 +33,8 @@ export default function AboutMe (){
                     </p>
                 </div>
 
-            </div>
-
+                {/* {</div>} */}
+                </AboutMeContainer>
         {/* </div> */}
         </About>
     )
