@@ -12,6 +12,13 @@ const AboutMeContainer = styled.div`
     margin-left: 6%;
 `
 
+const MeParagraph = styled.div`
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    color: white;
+    margin-right: 10%;
+`
+
 export default function AboutMe (){
     return (
         <About>
@@ -29,8 +36,11 @@ export default function AboutMe (){
                 </div>
 
                 <div className="me">
-                    <p className="me-paragraph">I'm a Full Stack Web Developer and Software Engineer, seeking opportunities to build meaningful and creative products to help make people’s lives easier. 
-                    </p>
+                    <MeParagraph>
+                        I'm a Full Stack Web Developer and Software Engineer, seeking opportunities to build meaningful and creative products to help make people’s lives easier. 
+                    </MeParagraph>
+                    {/* <p className="me-paragraph">I'm a Full Stack Web Developer and Software Engineer, seeking opportunities to build meaningful and creative products to help make people’s lives easier.  */}
+                    {/* </p> */}
                 </div>
 
                 {/* {</div>} */}
