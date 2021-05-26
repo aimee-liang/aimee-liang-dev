@@ -28,6 +28,15 @@ const Project = styled.div`
     margin: 5%;
 `
 
+const Description = styled.div`
+    font-family: 'Amiri', serif;
+    height: auto;
+    margin-bottom: 12%;
+    text-align: center;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+`
+
 export default function Projects(){
 
     return (
