@@ -85,11 +85,13 @@ export default function Projects(){
 
                     <div className="project portfolio">
 
-                        <div className="description">
+                        <Description>
+                        {/* <div className="description"> */}
                             <img alt="portfolio" src="https://media.giphy.com/media/0eIPpnJDJWoa0mHcLS/giphy.gif" />
                             <h2>Portfolio</h2>
                             <p>Deployment of personal portfolio website</p>
-                        </div>
+                        {/* </div> */}
+                        </Description>
 
                         <div className="project-tech-list">
                             <span>#CSS</span>
@@ -107,10 +109,12 @@ export default function Projects(){
 
                     <div className="project tetris">
 
-                        <div className="description">
+                        <Description>
+                        {/* <div className="description"> */}
                             <h2>Tetris</h2>
                             <p>Classic game of Tetris built using vanilla JavaScript, CSS, and HTML</p>
-                        </div>
+                        {/* </div> */}
+                        </Description>
 
                         <div className="project-tech-list">
                             <span>#HTML</span>
@@ -127,11 +131,13 @@ export default function Projects(){
 
                     <div className="project ubike">
 
-                        <div className="description">
+                        <Description>
+                        {/* <div className="description"> */}
                             <img alt="ubike" src="https://media.giphy.com/media/jYeWOD9QRKbLP4BCm4/giphy.gif"/>
                             <h2>ubike</h2>
                             <p>Full Stack app to locate, check into, and favorite New York City bike parking shelters</p>
-                        </div>
+                        {/* </div> */}
+                        </Description>
 
                         <div className="project-tech-list">
                             <span>#React</span>
