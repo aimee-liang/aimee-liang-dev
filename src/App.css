@@ -78,14 +78,14 @@
   text-align: center;
 }
 
-.project-tech-list {
+/* .project-tech-list {
   margin-left: 5%;
   display: block;
   flex-wrap: wrap;
   overflow: visible;
   word-break: break-all;
   margin-bottom: 90px;
-}
+} */
 
 .projects-container span {
   font-family: 'Cutive Mono', monospace;
@@ -117,14 +117,14 @@
   display: block;
 } 
 
-.description {
+/* .description {
   font-family: 'Amiri', serif;
   height: auto;
   margin-bottom: 12%;
   text-align: center;
   margin-left: 4.5%;
   margin-right: 4.5%;
-}
+} */
 
 .description img {
   padding-top: 10px;

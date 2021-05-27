@@ -28,6 +28,15 @@ const Project = styled.div`
     margin: 5%;
 `
 
+const ProjectTechList = styled.div`
+    margin-left: 5%;
+    display: block;
+    flex-wrap: wrap;
+    overflow: visible;
+    word-break: break-all;
+    margin-bottom: 90px;
+`
+
 const Description = styled.div`
     font-family: 'Amiri', serif;
     height: auto;
@@ -50,17 +59,21 @@ export default function Projects(){
 
                     <div className="project conscience">
 
-                        <div className="description">
+                        <Description>
+                        {/* <div className="description"> */}
                             <img alt="conscience" src="/conscience.png"/>
                             <h2>conscience</h2>
                             <p>Frontend web app for a fictional design studio, incorporating glassmorphism</p>
-                        </div>
+                        {/* </div> */}
+                        </Description>
 
-                        <div className="project-tech-list">
+                        <ProjectTechList>
+                        {/* <div className="project-tech-list"> */}
                             <span>#CSS</span>
                             <span>#HTML</span>
                             <span>#Mobile-Responsive</span>
-                        </div>
+                        {/* </div> */}
+                        </ProjectTechList>
 
                         <div className="links">
                             <a href="https://medium.com/design-bootcamp/how-to-make-glassmorphism-more-accessible-9121d816004c"><img alt="conscience blog post" src="https://img.icons8.com/nolan/60/medium-new.png"/></a>
