@@ -215,10 +215,12 @@ export default function Projects(){
 
                     <div className="project kl-finance">
 
-                        <div className="description">
+                        <Description>
+                        {/* <div className="description"> */}
                             <h2>KL-Finance</h2>
                             <p>Static finance website built using Rails backend</p>
-                        </div>
+                        {/* </div> */}
+                        </Description>
 
                         <div className="project-tech-list">
                             <span>#Ruby</span>
@@ -238,10 +240,12 @@ export default function Projects(){
 
                     <div className="project avatar-cli">
 
-                        <div className="description">
+                        <Description>
+                        {/* <div className="description"> */}
                             <h2>Avatar CLI</h2>
                             <p>Text adventure game based on James Cameron's movie</p>
-                        </div>
+                        {/* </div> */}
+                        </Description>
 
                         <div className="project-tech-list">
                             <span>#Ruby</span>
