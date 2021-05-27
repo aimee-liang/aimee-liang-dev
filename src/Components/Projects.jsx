@@ -162,11 +162,13 @@ export default function Projects(){
 
                     <div className="project munch">
 
-                        <div className="description">
+                        <Description>
+                        {/* <div className="description"> */}
                             <img alt="munch"src="https://media.giphy.com/media/voZNZQAAEYWaLcqHcl/giphy.gif"/>
                             <h2>munch</h2>
                             <p>Full Stack App to search restaurants based on cuisine and neighborhood, create and delete reservations</p>
-                        </div>
+                        {/* </div> */}
+                        </Description>
 
                         <div className="project-tech-list">
                             <span>#React</span>
@@ -188,11 +190,13 @@ export default function Projects(){
 
                     <div className="project flatiron-trivia">
 
-                        <div className="description">
+                        <Description>
+                        {/* <div className="description"> */}
                             <img alt=""src="https://media.giphy.com/media/qzug1mGS16tlZBuxGS/giphy.gif"/>    
                             <h2>Flatiron Trivia</h2>
                             <p>Full Stack App built for users to play a game of trivia based on various topics</p>
-                        </div>
+                        {/* </div> */}
+                        </Description>
 
                         <div className="project-tech-list">
                             <span>#JavaScript</span>
