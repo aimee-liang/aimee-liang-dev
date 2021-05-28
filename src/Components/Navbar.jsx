@@ -16,6 +16,10 @@ const NavigationBar = styled.div`
     justify-content: space-evenly;
 `
 
+const NavigationBarA = styled.a`
+    display: inline-block;
+`
+
 const DesignCredit = styled.div`
     text-align: center;
     color: white;
