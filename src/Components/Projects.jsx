@@ -26,6 +26,15 @@ const ProjectsHeader = styled.div`
 const Project = styled.div`
     width: 90%;
     margin: 5%;
+    border: solid 5px white;
+    height: auto;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+    color: white;
+    padding: 1px 0 1px 0;
+    box-shadow: 0px 0px 15px white;
 `
 
 const ProjectTechList = styled.div`
