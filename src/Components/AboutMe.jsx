@@ -19,6 +19,16 @@ const MeParagraph = styled.div`
     margin-right: 10%;
 `
 
+const TypeWriter = styled.div`
+    margin-top: auto;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 7vmax;
+    line-height: 7vmax;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    height: 12vmax;
+`
+
 export default function AboutMe (){
     return (
         <About>
