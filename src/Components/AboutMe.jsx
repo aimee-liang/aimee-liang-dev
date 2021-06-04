@@ -19,7 +19,7 @@ const MeParagraph = styled.div`
     margin-right: 10%;
 `
 
-const TypeWriter = styled.div`
+const TypeWriterComponent = styled.div`
     margin-top: auto;
     font-family: 'Cutive Mono', monospace;
     font-size: 7vmax;
@@ -37,13 +37,15 @@ export default function AboutMe (){
                 <AboutMeContainer>
                 {/* {<div className="about-me-container">} */}
 
-                <div className="typewriter">
+                {/* <div className="typewriter"> */}
+                <TypeWriterComponent>
                     <Typewriter options={{
                         strings: ["Hi, I'm Aimee."],
                         autoStart: true,
                         loop: true,
                     }} />
-                </div>
+                </TypeWriterComponent>
+                {/* </div> */}
 
                 <div className="me">
                     <MeParagraph>
