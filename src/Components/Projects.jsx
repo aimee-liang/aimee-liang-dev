@@ -116,16 +116,16 @@ export default function Projects(){
 
                     </div>
 
-                    <div className="project tetris">
+                    {/* <div className="project tetris">
 
                         <Description>
                         {/* <div className="description"> */}
                             <h2>Tetris</h2>
                             <p>Classic game of Tetris built using vanilla JavaScript, CSS, and HTML</p>
                         {/* </div> */}
-                        </Description>
+                        {/* </Description> */}
 
-                        <div className="project-tech-list">
+                        {/* <div className="project-tech-list">
                             <span>#HTML</span>
                             <span>#CSS</span>
                             <span>#JavaScript</span>
@@ -136,7 +136,7 @@ export default function Projects(){
                             <a href="https://github.com/aimee-liang/tetris"><img alt="tetris" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
-                    </div>
+                    </div> */}
 
                     <div className="project ubike">
 
