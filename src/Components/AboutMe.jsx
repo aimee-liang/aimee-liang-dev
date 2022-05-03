@@ -1,4 +1,3 @@
-import ProfilePic from "./ProfilePic"
 import "../App.css"
 import Typewriter from "typewriter-effect"
 import styled from "styled-components"
@@ -16,7 +15,6 @@ const MeParagraph = styled.div`
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     color: white;
-    margin-right: 10%;
 `
 
 const TypeWriterComponent = styled.div`
@@ -32,12 +30,8 @@ const TypeWriterComponent = styled.div`
 export default function AboutMe (){
     return (
         <About>
-        {/* <div className="about"> */}
-            <ProfilePic/>
                 <AboutMeContainer>
-                {/* {<div className="about-me-container">} */}
 
-                {/* <div className="typewriter"> */}
                 <TypeWriterComponent>
                     <Typewriter options={{
                         strings: ["Hi, I'm Aimee."],
@@ -45,19 +39,14 @@ export default function AboutMe (){
                         loop: true,
                     }} />
                 </TypeWriterComponent>
-                {/* </div> */}
 
                 <div className="me">
                     <MeParagraph>
                         I'm a Full Stack Web Developer and Software Engineer, seeking opportunities to build meaningful and creative products to help make people’s lives easier. 
                     </MeParagraph>
-                    {/* <p className="me-paragraph">I'm a Full Stack Web Developer and Software Engineer, seeking opportunities to build meaningful and creative products to help make people’s lives easier.  */}
-                    {/* </p> */}
                 </div>
 
-                {/* {</div>} */}
                 </AboutMeContainer>
-        {/* </div> */}
         </About>
     )
 }

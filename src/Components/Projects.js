@@ -1,6 +1,6 @@
 import React from "react"
 
-const Projects = () => {
+export default function Projects() {
 
     return (
         <>
@@ -35,7 +35,7 @@ const Projects = () => {
                     <div className="project portfolio">
 
                         <div className="description">
-                            <img alt="portfolio" src="https://media.giphy.com/media/0eIPpnJDJWoa0mHcLS/giphy.gif" />
+                            {/* <img alt="portfolio" src="https://media.giphy.com/media/0eIPpnJDJWoa0mHcLS/giphy.gif" /> */}
                             <h2>Portfolio</h2>
                             <p>Deployment of personal portfolio website</p>
                         </div>
@@ -50,26 +50,6 @@ const Projects = () => {
 
                         <div className="links">
                             <a href="https://github.com/aimee-liang/aimee-liang-dev"><img alt="portfolio" src="https://img.icons8.com/nolan/60/github.png"/></a>
-                        </div>
-
-                    </div>
-
-                    <div className="project tetris">
-
-                        <div className="description">
-                            <h2>Tetris</h2>
-                            <p>Classic game of Tetris built using vanilla JavaScript, CSS, and HTML</p>
-                        </div>
-
-                        <div className="project-tech-list">
-                            <span>#HTML</span>
-                            <span>#CSS</span>
-                            <span>#JavaScript</span>
-                        </div>
-
-                        <div className="links">
-                            <a href="https://youtu.be/xk9MYz-CMx8"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
-                            <a href="https://github.com/aimee-liang/tetris"><img alt="tetris" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
 
                     </div>
@@ -170,7 +150,6 @@ const Projects = () => {
 
                         <div className="links">
                             {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
-                            {/* <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
                             <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt="kl-finance" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
                     </div>
@@ -200,6 +179,3 @@ const Projects = () => {
         </>
     )
 }
-
-
-export default Projects

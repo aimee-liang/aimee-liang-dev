@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const Links = styled.div`
     bottom: 0;
     display: flex;
+    position: absolute;
     margin-left: 4%;
     margin-right: 4%;
     margin-bottom: 2%;
@@ -48,6 +49,7 @@ const ProjectTechList = styled.div`
 
 const Description = styled.div`
     font-family: 'Amiri', serif;
+    color: white;
     height: auto;
     margin-bottom: 12%;
     text-align: center;
@@ -69,19 +71,15 @@ export default function Projects(){
                     <div className="project conscience">
 
                         <Description>
-                        {/* <div className="description"> */}
                             <img alt="conscience" src="/conscience.png"/>
                             <h2>conscience</h2>
                             <p>Frontend web app for a fictional design studio, incorporating glassmorphism</p>
-                        {/* </div> */}
                         </Description>
 
                         <ProjectTechList>
-                        {/* <div className="project-tech-list"> */}
                             <span>#CSS</span>
                             <span>#HTML</span>
                             <span>#Mobile-Responsive</span>
-                        {/* </div> */}
                         </ProjectTechList>
 
                         <div className="links">
@@ -95,11 +93,9 @@ export default function Projects(){
                     <div className="project portfolio">
 
                         <Description>
-                        {/* <div className="description"> */}
                             <img alt="portfolio" src="https://media.giphy.com/media/0eIPpnJDJWoa0mHcLS/giphy.gif" />
                             <h2>Portfolio</h2>
                             <p>Deployment of personal portfolio website</p>
-                        {/* </div> */}
                         </Description>
 
                         <div className="project-tech-list">
@@ -119,11 +115,9 @@ export default function Projects(){
                     <div className="project ubike">
 
                         <Description>
-                        {/* <div className="description"> */}
                             <img alt="ubike" src="https://media.giphy.com/media/jYeWOD9QRKbLP4BCm4/giphy.gif"/>
                             <h2>ubike</h2>
                             <p>Full Stack app to locate, check into, and favorite New York City bike parking shelters</p>
-                        {/* </div> */}
                         </Description>
 
                         <div className="project-tech-list">
@@ -150,11 +144,9 @@ export default function Projects(){
                     <div className="project munch">
 
                         <Description>
-                        {/* <div className="description"> */}
                             <img alt="munch"src="https://media.giphy.com/media/voZNZQAAEYWaLcqHcl/giphy.gif"/>
                             <h2>munch</h2>
                             <p>Full Stack App to search restaurants based on cuisine and neighborhood, create and delete reservations</p>
-                        {/* </div> */}
                         </Description>
 
                         <div className="project-tech-list">
@@ -178,11 +170,9 @@ export default function Projects(){
                     <div className="project flatiron-trivia">
 
                         <Description>
-                        {/* <div className="description"> */}
                             <img alt=""src="https://media.giphy.com/media/qzug1mGS16tlZBuxGS/giphy.gif"/>    
                             <h2>Flatiron Trivia</h2>
                             <p>Full Stack App built for users to play a game of trivia based on various topics</p>
-                        {/* </div> */}
                         </Description>
 
                         <div className="project-tech-list">
@@ -203,10 +193,8 @@ export default function Projects(){
                     <div className="project kl-finance">
 
                         <Description>
-                        {/* <div className="description"> */}
                             <h2>KL-Finance</h2>
                             <p>Static finance website built using Rails backend</p>
-                        {/* </div> */}
                         </Description>
 
                         <div className="project-tech-list">
@@ -220,7 +208,6 @@ export default function Projects(){
 
                         <div className="links">
                             {/* <img alt=""src="https://img.icons8.com/nolan/60/web.png"/> */}
-                            {/* <a href="docs.google.com"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a> */}
                             <a href="https://github.com/aimee-liang/Mod2-Final-Project-Financial-App"><img alt="kl-finance" src="https://img.icons8.com/nolan/60/github.png"/></a>
                         </div>
                     </div>
@@ -228,10 +215,8 @@ export default function Projects(){
                     <div className="project avatar-cli">
 
                         <Description>
-                        {/* <div className="description"> */}
                             <h2>Avatar CLI</h2>
                             <p>Text adventure game based on James Cameron's movie</p>
-                        {/* </div> */}
                         </Description>
 
                         <div className="project-tech-list">

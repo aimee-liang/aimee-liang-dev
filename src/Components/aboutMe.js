@@ -1,15 +1,11 @@
 import React from "react"
-// import ProfilePic from "./ProfilePic"
 import "../App.css"
 import Typewriter from "typewriter-effect"
 
-const AboutMe = () => {
+export default function AboutMe() {
     return(
         <div className="about">
-            {/* <ProfilePic/> */}
-
             <div className="about-me-container">
-
                 <div className="typewriter">
                     <Typewriter options={{
                         strings: ["Hi, I'm Aimee."],
@@ -24,8 +20,6 @@ const AboutMe = () => {
                 </div>
 
             </div>
-
         </div>
     )
 }
-export default AboutMe
