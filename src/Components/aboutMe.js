@@ -1,12 +1,12 @@
 import React from "react"
-import ProfilePic from "./ProfilePic"
+// import ProfilePic from "./ProfilePic"
 import "../App.css"
 import Typewriter from "typewriter-effect"
 
 const AboutMe = () => {
     return(
         <div className="about">
-            <ProfilePic/>
+            {/* <ProfilePic/> */}
 
             <div className="about-me-container">
 

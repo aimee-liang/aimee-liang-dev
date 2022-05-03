@@ -116,28 +116,6 @@ export default function Projects(){
 
                     </div>
 
-                    {/* <div className="project tetris">
-
-                        <Description>
-                        {/* <div className="description"> */}
-                            <h2>Tetris</h2>
-                            <p>Classic game of Tetris built using vanilla JavaScript, CSS, and HTML</p>
-                        {/* </div> */}
-                        {/* </Description> */}
-
-                        {/* <div className="project-tech-list">
-                            <span>#HTML</span>
-                            <span>#CSS</span>
-                            <span>#JavaScript</span>
-                        </div>
-
-                        <div className="links">
-                            <a href="https://youtu.be/xk9MYz-CMx8"><img alt=""src="https://img.icons8.com/nolan/60/youtube-squared.png"/></a>
-                            <a href="https://github.com/aimee-liang/tetris"><img alt="tetris" src="https://img.icons8.com/nolan/60/github.png"/></a>
-                        </div>
-
-                    </div> */}
-
                     <div className="project ubike">
 
                         <Description>
